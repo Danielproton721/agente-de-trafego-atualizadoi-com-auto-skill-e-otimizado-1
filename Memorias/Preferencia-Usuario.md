@@ -35,6 +35,13 @@ description: "O que o Daniel gosta, odeia e como ele quer que o Jarvis se compor
 - **IDs Conhecidos:** 
     - Perfil 3: `986-563-9931` (CPG COMERCIO - Vazia/Backup).
 
+## 🛡️ Protocolo Gold Standard de Criação de Perfil (AdsPower)
+- **Navegador:** Sempre usar **SunBrowser** (Kernel Chrome).
+- **Sistemas Bloqueados:** NUNCA criar perfil Mac ou Firefox.
+- **Conectividade:** NUNCA criar perfil sem Proxy dedicado (Preferência: **SOCKS5** e **IPv6**).
+- **Histórico:** Sempre gerar cache e aceitar cookies logo após a criação (bagagem de histórico).
+- **Ferramentas de Navegação:** É **EXTREMAMENTE PROIBIDO** usar `chrome-devtools` ou `browser_subagent`. Utilize **EXCLUSIVAMENTE** o AdsPower para qualquer operação de navegador.
+
 ## 🔤 Léxico operacional (como Daniel fala → o que executar)
 - **"abre o google ads"** → NÃO é `https://ads.google.com` (home pública). É a UI de campanhas autenticada: `https://ads.google.com/aw/campaigns?...&authuser=0&workspaceId=0`.
     - Fixos na URL: path `/aw/campaigns`, `authuser=0`, `workspaceId=0`.

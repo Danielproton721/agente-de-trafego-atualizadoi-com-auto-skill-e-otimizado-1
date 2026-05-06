@@ -57,12 +57,20 @@ Todas sob o prefixo `mcp__adspower-local-api__`.
 | Tool | Uso |
 |---|---|
 | `get-browser-list` | Listar todos os perfis |
-| `create-browser` | Criar perfil novo |
+| `create-browser` | Criar perfil novo (Seguir Protocolo Gold Standard) |
 | `update-browser` | Editar perfil existente |
 | `delete-browser` | Deletar perfil (exige confirmação dupla — regra V3.1) |
 | `move-browser` | Mover perfil entre grupos |
 | `update-patch` | Atualizar kernel/patch do perfil |
 | `share-profile` | Gerar link de compartilhamento |
+
+### 🏆 Protocolo Gold Standard de Criação [AUTO-SKILL]
+Sempre que o Daniel solicitar a criação de um novo perfil, seguir rigorosamente:
+1. **Browser Selection:** `SunBrowser` (Chrome-based). NUNCA usar Firefox.
+2. **OS Selection:** `Windows`. NUNCA usar macOS.
+3. **Proxy Setup:** Obrigatório. Nunca criar perfil "Direct" (Sem proxy). Preferência por **SOCKS5** e **IPv6**.
+4. **Fingerprint:** Gerar nova fingerprint após configurar Proxy e Browser.
+5. **Warm-up Inicial:** Logo após criar, abrir o perfil, navegar em sites de grande porte (Google, G1, Youtube) e **aceitar todos os cookies** para gerar "bagagem de histórico".
 
 ### 🖥️ Navegador (abrir/fechar/inspecionar)
 | Tool | Uso |
@@ -154,6 +162,7 @@ Todas sob o prefixo `mcp__adspower-local-api__`.
 4. Se perfil tem proxy (`proxy_soft: other`), **checar proxy** antes de abrir — proxy caído = IP vazado.
 5. Registrar uso em `Memorias/Contas/<perfil>/log-<data>.md`.
 6. **Sempre screenshot antes de ação destrutiva** (publicar campanha, deletar, etc.) → vai pra `Memorias/Contas/<perfil>/outputs/`.
+7. **Proibição de Ferramentas:** É **EXTREMAMENTE PROIBIDO** o uso de `chrome-devtools` ou `browser_subagent`. Utilize **APENAS** o ecossistema AdsPower.
 
 ## 🧭 Mapa atual de perfis
 

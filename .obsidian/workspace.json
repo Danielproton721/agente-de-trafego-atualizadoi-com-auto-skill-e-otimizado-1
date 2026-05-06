@@ -4,24 +4,31 @@
     "type": "split",
     "children": [
       {
-        "id": "ecf5215f742ef107",
+        "id": "a3d07042ee647001",
         "type": "tabs",
         "children": [
           {
-            "id": "ae5737cd5f661e7a",
+            "id": "68179c933efddf58",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "AGENTS.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Visualização em gráfico"
+            }
+          },
+          {
+            "id": "d87c42a8d90f3cd4",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "AGENTS"
+              "title": "Nova aba"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -41,7 +48,7 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": true
               },
               "icon": "lucide-folder-closed",
               "title": "Explorador de arquivos"
@@ -180,8 +187,12 @@
       "bases:Criar nova base": false
     }
   },
-  "active": "ed9c434643f5f121",
+  "active": "d87c42a8d90f3cd4",
   "lastOpenFiles": [
+    "AGENTS-CORE.md",
+    "2026-05-06.md",
+    "Sem título.base",
+    "AGENTS-ROUTING.md",
     "Templates/licao.md",
     "Templates/log-conta.md",
     "Templates/log-global.md",
@@ -205,9 +216,6 @@
     "INDEX.md",
     "SOPs/04-Fadiga-Criativos.md",
     "SOPs/16-Caminho-Conversao.md",
-    "Memorias/Contas/perfil-2/perfil-2.md",
-    "SOPs/12-Performance-Dia-Hora.md",
-    "SOPs/39-Auditoria-CRO.md",
     "TESTE memoria geral jarvis/Templates/referencia.md.tmp.19148.1776916650667",
     "TESTE memoria geral jarvis/Templates/erro.md.tmp.19148.1776916643333",
     "TESTE memoria geral jarvis/Templates/entidade.md.tmp.19148.1776916608867",
@@ -216,7 +224,6 @@
     "TESTE memoria geral jarvis/AGENTS.md.tmp.19148.1776916536875",
     "TESTE memoria geral jarvis/README.md.tmp.19148.1776916486279",
     "TESTE memoria geral jarvis/raw",
-    "TESTE memoria geral jarvis/Metricas",
-    "TESTE memoria geral jarvis/SOPs"
+    "TESTE memoria geral jarvis/Metricas"
   ]
 }
