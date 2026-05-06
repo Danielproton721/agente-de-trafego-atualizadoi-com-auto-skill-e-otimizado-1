@@ -17,6 +17,11 @@ description: "Operação completa do MCP adspower-local-api. Gestão de perfis, 
 - **Autenticação:** Bearer token em header
 - **Pré-requisito:** AdsPower Desktop **aberto e logado** antes de qualquer chamada
 
+## 🚨 REGRA MESTRA DE CONEXÃO (OBRIGATÓRIA)
+- **Sempre que iniciar**, testar a conexão do AdsPower (via `check-status` ou `Invoke-RestMethod` no status).
+- **Limite de tentativas:** Nunca exceder **duas** tentativas de conexão.
+- **Falha Crítica:** Se der erro na segunda tentativa, **PARE TUDO** e reporte imediatamente ao Daniel. Não prossiga com automações.
+
 ## 🧨 Macro canônica de abertura (INVIOLÁVEL)
 
 Abrir perfil para operar DOM é **sempre 3 passos**. Pular o passo 2 = "Browser not connected" em qualquer tool de navegação.

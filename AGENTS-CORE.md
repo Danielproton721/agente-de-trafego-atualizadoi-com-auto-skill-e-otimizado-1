@@ -78,8 +78,9 @@ PARAR e reportar ao Daniel. Nunca abrir navegador próprio como fallback.
 ```
 1. Ler Memorias/Status-Atual.md         → situação global
 2. Ler SKILL.md                         → registrar skills disponíveis (obsidian-rag, auto-skill, etc)
-3. PERGUNTAR: "Qual perfil é o foco hoje?"  (a menos que o Daniel já tenha dito)
-4. Carregar ficha do perfil alvo
+3. Testar conexão AdsPower (max 2 tentativas) → se falhar na 2ª, STOP e REPORT.
+4. PERGUNTAR: "Qual perfil é o foco hoje?"  (a menos que o Daniel já tenha dito)
+5. Carregar ficha do perfil alvo
 ```
 
 **Boot condicional (carregar SÓ SE necessário):**
@@ -130,6 +131,7 @@ Se a verba está queimando rápido (gasto projetado > 105% do budget mensal), al
 - Budget sempre confirmado 2x (Playwright erra vírgula).
 - Screenshot obrigatório antes de publicar.
 - Máximo 3 perfis AdsPower abertos simultaneamente.
+- **Teste de Conexão:** Sempre testar a conexão do AdsPower ao iniciar tarefas. Nunca exceder 2 tentativas; se falhar na 2ª, parar e reportar obrigatoriamente.
 
 ### 6. Loop de Auto-Upgrade (camada `Conhecimento/`)
 
