@@ -89,7 +89,7 @@ Cobre execução de campanha (SOP 11) e auditoria técnica (Pixel Meta, Conversi
 | Navegar dashboard, tirar print de métricas | AdsPower |
 | **Criar campanha Google Ads** (SOP 11) | Híbrido (snapshot pra UI complexa) |
 | **Criar campanha Meta Ads** (SOP futuro 53) | Híbrido |
-| **Auditoria Conversions API / Pixel** (SOP 41) | Híbrido (network requests) |
+| **Auditoria Conversions API / Pixel** (SOP 01) | Híbrido (network requests) |
 | Debug de JS na página | Playwright (`console_messages`) |
 | Upload de CSV (público customizado, lista) | Playwright (`file_upload`) |
 | Confirmar dialog "Você tem certeza?" | Playwright (`handle_dialog`) |

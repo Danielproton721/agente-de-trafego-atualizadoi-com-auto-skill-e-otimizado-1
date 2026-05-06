@@ -39,8 +39,8 @@ Se RAG retornar lição/erro relevante, **citar `[[Erros/...]]` ou `[[Licoes/...
 - [ ] **Negativas iniciais** (SOP 02)
 - [ ] **URL final** da LP
 - [ ] **Headlines** (mín. 11, máx. 15) + **Descriptions** (mín. 4)
-- [ ] **Extensões** → SOP 21
-- [ ] **Nome da campanha** padrão SOP 23
+- [ ] **Extensões** → SOP 01
+- [ ] **Nome da campanha** padrão SOP 07
 
 **Se faltar qualquer item → PARAR e perguntar.** Não inventar.
 
@@ -87,7 +87,7 @@ Se RAG retornar lição/erro relevante, **citar `[[Erros/...]]` ou `[[Licoes/...
 23. browser_type(ref=<input nome>, text=<nome-cluster>)
 24. browser_type(ref=<textarea keywords>, text=<lista com match types>)
 25. browser_type(ref=<textarea negativas>, text=<negativas>)
-26. Validar: keyword overlap (SOP 20) — se duplicar, PARAR
+26. Validar: keyword overlap (SOP 04) — se duplicar, PARAR
 ```
 
 ### Fase 5 — Criativos
@@ -135,7 +135,7 @@ Se RAG retornar lição/erro relevante, **citar `[[Erros/...]]` ou `[[Licoes/...
 2. **Budget confirmado 2x** — Playwright pode errar vírgula/ponto (R$ 50,00 vs R$ 5000).
 3. **Screenshot da fase 6 obrigatório** antes de publicar — evidência.
 4. **Nunca publicar ativa em modo Conversion sem review humano** — pausa primeiro.
-5. **Pacing check** (SOP 27) — se conta já está acima do pacing do mês, alertar antes.
+5. **Pacing check** (SOP 02) — se conta já está acima do pacing do mês, alertar antes.
 6. **`browser_network_requests` na publicação** — confirmar 200 OK; se 4xx/5xx, NÃO marcar como sucesso.
 
 ## ⚠️ Troubleshooting

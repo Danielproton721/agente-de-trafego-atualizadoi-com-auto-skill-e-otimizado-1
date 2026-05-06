@@ -28,7 +28,7 @@ last_update: ""
 - **Justificativa:** 
 
 ## 💰 Campanha Ativa
-- **Nome:** (padrão SOP 23)
+- **Nome:** (padrão SOP 07)
 - **Objetivo:** 
 - **Budget diário:** R$ 
 - **Estratégia de lance:** 
