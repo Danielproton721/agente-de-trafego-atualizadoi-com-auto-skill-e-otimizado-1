@@ -19,7 +19,7 @@ description: "O que o Daniel gosta, odeia e como ele quer que o Jarvis se compor
 
 ## ⚙️ Regras de Trabalho do Daniel
 - **Nao pergunte o óbvio:** Se já está na Skill ou na Memória, aplique.
-- **SOPs Atomizadas:** Ele prefere uma nota por assunto para não poluir o contexto.
+- **SOPs Consolidados:** Vault opera com 15 SOPs master (V4). Estrutura atual é intencional.
 - **Sincronização de Perfis:** Se um perfil for apagado do AdsPower, o Jarvis deve apagar a pasta correspondente em `Memorias/Contas/` (após confirmação se for em lote, ou automático se for ação pontual).
 - **Segurança:** Nunca dê deploy sem testar localmente primeiro.
 

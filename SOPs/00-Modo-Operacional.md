@@ -53,4 +53,4 @@ Cliente/produto tem >= 30 conversões/mês consistentes?
 3. LP de funil completo rodando anúncio de teste de demanda — gasta 5x mais dev e não valida nada.
 
 ## 📎 Gatilho de uso obrigatório
-Qualquer SOP de otimização (`01-Diagnostico-CPA`, `11-Estrategia-Lance`, `19-Previsao-ROAS`, `32-Alocador-Verba`, `37-Auditoria-Google`) deve **declarar o modo ativo no topo do output** antes de aplicar suas regras.
+Qualquer SOP de otimização (`01`, `02`, `04`, `05`, `11`) deve **declarar o modo ativo no topo do output** antes de aplicar suas regras.
