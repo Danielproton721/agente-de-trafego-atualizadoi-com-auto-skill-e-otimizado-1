@@ -1,0 +1,47 @@
+{
+  "mcpServers": {
+    "supabase": {
+      "serverUrl": "https://mcp.supabase.com/mcp?project_ref=pkoytgtcquyuimnbpnhv&features=docs%2Caccount%2Cdatabase%2Cdebugging%2Cdevelopment%2Cfunctions%2Cbranching%2Cstorage",
+      "headers": {
+        "Authorization": "Bearer SUA-CHAVE-SUPABASE"
+      }
+    },
+    "github": {
+      "serverUrl": "https://api.githubcopilot.com/mcp/",
+      "headers": {
+        "Authorization": "ghp_SUA-CHAVE-GITHUB"
+      }
+    },
+    "context7": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@upstash/context7-mcp",
+        "--api-key",
+        "SUA-CHAVE-AQUI"
+      ]
+    },
+    "obsidian-rag": {
+      "command": "uvx",
+      "args": [
+        "obsidian-notes-rag",
+        "serve"
+      ]
+    },
+    "chrome-devtools": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "chrome-devtools-mcp@latest"
+      ]
+    },
+    "adspower-local-api": {
+      "command": "npx",
+      "args": ["-y", "local-api-mcp-typescript"],
+      "env": {
+        "PORT": "50325",
+        "API_KEY": "SUA-CHAVE-ADSPOWER"
+      }
+    }
+  }
+}
