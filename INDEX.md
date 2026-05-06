@@ -8,7 +8,7 @@ description: "Mapa Central (15 SOPs + 2 AGENTS). Boot mínimo: AGENTS-CORE.md + 
 
 # 🧠 Cérebro de Tráfego (INDEX)
 
-**Boot:** Carregar `AGENTS-CORE.md` e `Memorias/Status-Atual.md` apenas. Roteamento sob demanda via `AGENTS-ROUTING.md`.
+**Boot:** AGENTS-CORE.md + Status-Atual.md + SKILL.md. Roteamento sob demanda via `AGENTS-ROUTING.md`.
 
 ---
 

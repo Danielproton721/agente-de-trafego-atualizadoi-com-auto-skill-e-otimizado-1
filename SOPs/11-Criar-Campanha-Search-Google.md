@@ -7,7 +7,7 @@ last_update: 2026-04-22
 description: "SOP procedural executável V2. Padrão Híbrido (AdsPower fingerprint + Playwright snapshot-first). Cada fase começa com snapshot, não com selector cego."
 ---
 
-# SOP 50 — Criar Campanha Search Google Ads (V2)
+# SOP 11 — Criar Campanha Search Google Ads (V2)
 
 > **V2 mudanças:** snapshot-first execution; nomes corretos das tools dos MCPs; integração explícita com `Conhecimento/Erros` e `Conhecimento/Selectors`; outputs vão pra pasta da conta.
 
@@ -32,7 +32,7 @@ Se RAG retornar lição/erro relevante, **citar `[[Erros/...]]` ou `[[Licoes/...
 - [ ] **Modo operacional** (PMF ou Conversion) → SOP 00
 - [ ] **Objetivo** (Leads / Vendas / Tráfego / Sign-ups)
 - [ ] **Budget diário** (R$) — confirmar 2x
-- [ ] **Estratégia de lance** (Manual CPC / Max Clicks / tCPA / tROAS) → SOP 11 + SOP 00
+- [ ] **Estratégia de lance** (Manual CPC / Max Clicks / tCPA / tROAS)
 - [ ] **Localização** (BR / estado / cidade)
 - [ ] **Idioma** (default: Português)
 - [ ] **Keywords** + **match type** (default: Phrase)
@@ -75,7 +75,7 @@ Se RAG retornar lição/erro relevante, **citar `[[Erros/...]]` ou `[[Licoes/...
 ### Fase 3 — Lance + audiências
 ```
 17. browser_snapshot → seção de lance
-18. Selecionar estratégia conforme SOP 00 + SOP 11
+18. Selecionar estratégia conforme SOP 00
 19. Se Conversion: configurar remarketing + customer match
 20. Se PMF: pular audiências (mantém amplo)
 21. browser_take_screenshot(filename="fase3-lance.png")

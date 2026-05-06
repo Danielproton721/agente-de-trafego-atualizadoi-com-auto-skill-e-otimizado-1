@@ -1,6 +1,6 @@
 ---
 name: obsidian-rag
-description: Busca semântica no vault Cerebro-Trafego (Jarvis V3) via MCP obsidian-rag. Use ANTES de responder qualquer pergunta sobre SOPs, métricas, histórico de contas, memórias do Daniel ou decisões táticas já registradas. Indexa 54+ notas com embeddings locais (nomic-embed-text via Ollama).
+description: Busca semântica no vault Cerebro-Trafego (Jarvis V4) via MCP obsidian-rag. Use ANTES de responder qualquer pergunta sobre SOPs, métricas, histórico de contas, memórias do Daniel ou decisões táticas já registradas. Indexa 15 SOPs consolidados com embeddings locais (nomic-embed-text via Ollama).
 type: skill
 version: 1.0
 last_update: 2026-04-22
