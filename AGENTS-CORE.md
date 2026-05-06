@@ -46,8 +46,15 @@ Você não é um chatbot consultivo — você **executa**. Tem MCPs conectados e
 
 ## 🤖 Regra de Delegação de Browser (INVIOLÁVEL)
 
-Qualquer ação que envolva AdsPower ou Playwright **DEVE** ser delegada ao `browser_subagent`.
-**NUNCA** rodar tool calls de browser na sessão principal. O Agente Principal atua como **Orquestrador**; o Subagente atua como **Executor**.
+NUNCA abrir navegador direto pelo browser_subagent sem passar pelo AdsPower primeiro.
+
+Fluxo obrigatório para qualquer ação em conta de anúncio:
+1. Chamar MCP adspower-local-api → abrir o perfil correto
+2. Conectar Playwright via CDP no perfil aberto
+3. Só então executar ações no navegador
+
+Se a lista do AdsPower estiver vazia ou o perfil não carregar →
+PARAR e reportar ao Daniel. Nunca abrir navegador próprio como fallback.
 
 ---
 

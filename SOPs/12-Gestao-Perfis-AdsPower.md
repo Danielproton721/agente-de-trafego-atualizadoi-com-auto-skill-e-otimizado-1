@@ -162,6 +162,7 @@ Fichas em `Memorias/Contas/<perfil>/<perfil>.md`:
 ## 🐛 Troubleshooting conhecido
 
 - **AdsPower daemon offline:** `check-status` falha → pedir ao Daniel abrir o app.
+- **Lista de perfis vazia (`list: []`):** **REGRA DE OURO:** Se a API retornar sucesso mas a lista vier vazia, PARE TUDO. Não tente diagnosticar a API. Pergunte: *"Você apagou os perfis no AdsPower?"*. O Daniel costuma apagar perfis entre testes.
 - **`open-browser` trava:** ad-blocker interno → desabilitar extensão ou trocar perfil.
 - **Cookies sumiram:** perfil fez logout. `get-profile-cookies` pra confirmar; se vazio, pedir login manual.
 - **Fingerprint rejeitado pelo Google:** `new-fingerprint` + rodar `delete-cache-v2` antes de reabrir.
