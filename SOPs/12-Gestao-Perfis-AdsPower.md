@@ -7,7 +7,7 @@ last_update: 2026-04-22
 description: "Operação completa do MCP adspower-local-api. Gestão de perfis, fingerprint, proxy, E automação de navegador nativa."
 ---
 
-# SOP 51 — Gestão de Perfis AdsPower via MCP (V2)
+# SOP 12 — Gestão de Perfis AdsPower via MCP (V2)
 
 > **V2 (2026-04-22):** corrigido — o MCP expõe ~47 ferramentas, não só 8. Cobre perfil + navegador + fingerprint + proxy + tags + automação DOM nativa.
 
@@ -122,7 +122,7 @@ Todas sob o prefixo `mcp__adspower-local-api__`.
 - Qualquer coisa que envolva **identidade/fingerprint/proxy** — é o ponto dele
 - Ciclos simples de automação (click/fill/navigate/screenshot) **sem precisar de snapshot de acessibilidade**
 - Gestão de perfis em lote
-- Preparar ambiente antes do SOP 50 / criação de campanha
+- Preparar ambiente antes do SOP 11 / criação de campanha
 
 **Quando NÃO usar AdsPower MCP (e ir de Playwright):** ver [[13-Decisao-AdsPower-vs-Playwright]].
 

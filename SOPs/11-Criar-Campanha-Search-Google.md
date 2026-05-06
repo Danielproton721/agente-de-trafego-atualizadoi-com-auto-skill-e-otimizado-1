@@ -28,7 +28,7 @@ Se RAG retornar lição/erro relevante, **citar `[[Erros/...]]` ou `[[Licoes/...
 
 ## 📝 Checklist de inputs (Jarvis EXIGE antes de começar)
 
-- [ ] **Perfil AdsPower** (nome ou user_id) → consultar SOP 51
+- [ ] **Perfil AdsPower** (nome ou user_id) → consultar SOP 12
 - [ ] **Modo operacional** (PMF ou Conversion) → SOP 00
 - [ ] **Objetivo** (Leads / Vendas / Tráfego / Sign-ups)
 - [ ] **Budget diário** (R$) — confirmar 2x

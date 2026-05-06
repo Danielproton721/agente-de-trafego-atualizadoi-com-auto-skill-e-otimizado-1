@@ -7,7 +7,7 @@ last_update: 2026-04-22
 description: "Critério obrigatório de qual MCP usar. Os dois sobrepõem em automação DOM — escolher errado dobra latência ou perde resiliência."
 ---
 
-# SOP 52 — AdsPower MCP vs Playwright MCP
+# SOP 13 — AdsPower MCP vs Playwright MCP
 
 > Os dois MCPs fazem `click`, `fill`, `screenshot`, `navigate`. Escolher errado custa tempo e quebra fluxo. Este SOP é o gate de decisão.
 
@@ -73,7 +73,7 @@ Cobre 70% dos casos: gestão de perfil, navegar até dashboard, tirar print, aç
 6. AdsPower: close-browser (sempre fecha pelo dono)
 ```
 
-Cobre execução de campanha (SOP 50) e auditoria técnica (Pixel Meta, Conversions API, debug de tag).
+Cobre execução de campanha (SOP 11) e auditoria técnica (Pixel Meta, Conversions API, debug de tag).
 
 ### Padrão C — Playwright puro
 **Quando:** NÃO usar. Se precisa de Playwright, sempre passar pelo AdsPower antes pra ter fingerprint isolado. Acessar Google/Meta sem AdsPower = flag instantâneo.
@@ -87,7 +87,7 @@ Cobre execução de campanha (SOP 50) e auditoria técnica (Pixel Meta, Conversi
 | Mudar tag/grupo/proxy | AdsPower |
 | Login manual + cookie check | AdsPower |
 | Navegar dashboard, tirar print de métricas | AdsPower |
-| **Criar campanha Google Ads** (SOP 50) | Híbrido (snapshot pra UI complexa) |
+| **Criar campanha Google Ads** (SOP 11) | Híbrido (snapshot pra UI complexa) |
 | **Criar campanha Meta Ads** (SOP futuro 53) | Híbrido |
 | **Auditoria Conversions API / Pixel** (SOP 41) | Híbrido (network requests) |
 | Debug de JS na página | Playwright (`console_messages`) |
