@@ -56,7 +56,7 @@ Acione o MCP `obsidian-rag` ANTES de responder sempre que o input bater em:
 
 ## Integração com o Protocolo de Inicialização (AGENTS.md §1)
 
-O passo de inicialização da sessão já lê `Status-Atual.md`, `Preferencia-Usuario.md` e `Memorias/Contas/`. O RAG é usado **em cima disso** sempre que o Daniel pergunta algo que exigiria buscar em 54 notas manualmente. Não substitui a leitura direta das memórias críticas.
+O passo de inicialização da sessão já lê `Status-Atual.md`, `Preferencia-Usuario.md` e `Memorias/Contas/`. O RAG é usado **em cima disso** sempre que o Daniel pergunta algo que exigiria buscar em 15 SOPs manualmente. Não substitui a leitura direta das memórias críticas.
 
 Ordem de preferência:
 1. **Leitura direta** dos arquivos fixos do protocolo (Status-Atual, Preferencia-Usuario, ficha do perfil alvo).

@@ -56,7 +56,7 @@ Sem extensões, o Quality Score sofre.
 
 ---
 
-## SOP 37 - Checklists de Auditoria Tecnica
+## Checklists de Auditoria Tecnica
 **Descrição:** Padrão de validação higiênica. Engloba Auditoria de LP, Google Ads e CRO para não mandar audiência prum buraco.
 
 # ✅ 37 - Checklists de Auditorias Técnicas (LP, CRO e Extensões)

@@ -51,7 +51,7 @@ Não olhe pro ROAS do canal isolado para definir o Mix de Canais total. O Google
 
 ---
 
-## SOP 19 - Previsao ROAS
+## Previsao ROAS
 **Descrição:** Ferramenta para não prometer o que o algoritmo não consegue entregar nos meses seguintes.
 
 # 🔮 19 - Previsão de ROAS
@@ -89,7 +89,7 @@ Se o Gasto Projetado for >20% que a Meta do Cliente, levante o Handbreak (avise 
 
 ---
 
-## SOP 32 - Alocador Verba
+## Alocador Verba
 **Descrição:** Ação corretiva para tirar dinheiro do que parou de dar ROI e injetar nos vencedores marginais.
 
 # 💸 32 - Alocador de Verba Otimizado
