@@ -66,5 +66,13 @@ Daniel perguntou se o RAG/llama ainda estava salvando no Obsidian. **Não estava
 ## Próximo boot
 Ler esta fila **antes** de perguntar o foco. Se AdsPower subiu, a ordem é: (1) fechar o caixa da cegonha, (2) decisão CumpadiFood.
 
-## ⚠️ Nota — push bloqueado
-Commits `192cbbf` (vault inteiro) e `0f8ea44` (remoção do log duplicado) estão **locais**. O `git push` falhou com `SEC_E_NO_CREDENTIALS` — o ambiente não tem credencial do GitHub disponível. **Backup no remoto pendente:** rodar `git push origin main` num shell com credencial (ou `gh auth login`). As 157.869 linhas estão versionadas no disco, não no GitHub.
+## ⚠️ Push: primeiro bloqueado pelo GitHub, depois publicado
+**O GitHub recusou o primeiro push** (`GH013 — push declined due to repository rule violations`): o `.obsidian/plugins/remotely-save/main.js` embute **Google OAuth Client ID + Client Secret** (credenciais padrão do plugin) e o *secret scanning* barrou o commit. Os plugins estavam indo pro repo como qualquer arquivo do vault.
+
+**Corrigido antes de publicar** (nada vazou — o push é atômico, ou sobe tudo ou não sobe nada):
+- `.obsidian/plugins/` no `.gitignore` — plugin é artefato instalável, não conhecimento do Cérebro
+- `outputs/*.zip` também fora: binário, sem valor de nota, risco de segredo embutido
+- Histórico local reescrito (`reset --soft` em `dbe3dfc` + recommit) para o segredo não existir em nenhum commit. **Seguro porque nada havia sido publicado ainda.**
+- Varredura no index antes de commitar: `PRIVATE KEY`, `AIza…`, `GOCSPX-`, `ghp_…`, `sk-…` → zero ocorrências
+
+**Estado final:** commit `2af6e13`, **publicado** (`main...origin/main`), **182 arquivos no remoto**, com `Memorias/Contas/`, `.obsidian/plugins/` e `.mcp.json` ausentes do remoto — verificado por `git ls-tree origin/main`.

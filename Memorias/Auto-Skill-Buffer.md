@@ -97,6 +97,8 @@ mecanica muda e a conclusao nao transfere. Oferta sem venda registrada = registr
 **Destino:** `AGENTS-CORE.md` (seção de segurança) + `.gitignore` (já aplicado).
 **Status:** Capturado — `.gitignore` e `.mcp.example.json` já aplicados em 09/11.
 
+**Achado extra no mesmo dia (o push recusou):** `.obsidian/plugins/remotely-save/main.js` embute **Google OAuth Client ID + Client Secret**; o GitHub bloqueou o push por isso. **Plugin do Obsidian é artefato instalável, não nota** — pasta `.obsidian/plugins/` inteira fora do versionamento, sempre. Segredo barrado em push protection exige reescrever o commit local (`reset --soft` + recommit) — só é seguro enquanto nada foi publicado.
+
 ## 📋 Template de Item (Copiar ao Registrar)
 
 ```markdown
