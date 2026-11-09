@@ -2,15 +2,19 @@
 title: MASTER 08 - SEO e Escala Programática
 type: MASTER_SOP
 last_update: 2026-05-06
-tags: [master, seo, busca-organica, programatico, escala]
+tags: [master, seo, busca-organica, programatico, escala, plataforma/google]
 ---
 
 # MASTER 08 - SEO e Escala Programática
+
+> 🏷️ **Plataforma:** Google Ads.
 
 ## SOP 35 - SEO Completo
 **Descrição:** Auditoria estrutural e on-page para tráfego que não é pago.
 
 # 🌐 35 - Auditoria Estrutural SEO Completa
+
+> 🏷️ **Plataforma:** Google Ads.
 
 **Gatilho de Uso:** Diagnóstico geral de marca, queda no tráfego orgânico relatado no GA4.
 
@@ -35,6 +39,8 @@ Padrões Funcionais:
 **Descrição:** SEO gerado em escala via Slug Template.
 
 # 🦾 42 - SEO Programático
+
+> 🏷️ **Plataforma:** Google Ads.
 
 **Gatilho de Uso:** Produto pronto, domínio alto, quer puxar Long-Tail keyword em alta velocidade sem pagar do bolso.
 

@@ -2,15 +2,19 @@
 title: MASTER 03 - Criativos, Copy e ICP
 type: MASTER_SOP
 last_update: 2026-05-06
-tags: [master, criativos, copy, icp, concorrentes, fadiga, ganchos]
+tags: [master, criativos, copy, icp, concorrentes, fadiga, ganchos, plataforma/google, plataforma/meta]
 ---
 
 # MASTER 03 - Criativos, Copy e ICP
+
+> 🏷️ **Plataforma:** conteúdo **misto**. Fadiga de criativo, capping e CTR de feed são **Meta**; Ad Transparency Center e copy de RSA servem **Google**. Conferir a origem antes de aplicar limiar.
 
 ## SOP 04 - Fadiga Criativos
 **Descrição:** Verificação da saúde e vida útil restante dos anúncios ativos. Thresholds para troca e expansão baseados na degradação de CTR vs. Frequência.
 
 # 🎨 04 - Detecção de Fadiga de Criativos
+
+> 🏷️ **Plataforma:** Meta Ads. Não aplicar em Google Ads.
 
 **Gatilho de Uso:** Check semanal de manutenção, quando o CPA sobe sem causa de erro de público/lance, ou logo após escalar brutalmente o orçamento (o que acelera a queima de frequência).
 
@@ -39,6 +43,8 @@ Sempre feche o diagnóstico informando a categoria atual da peça (Urgente, Saú
 **Descrição:** Fórmulas comprovadas (Hooks) para geração e mutação de novas versões de anúncios sem perder o ângulo vencedor.
 
 # ✍️ 09 - Gerador de Variantes de Copy
+
+> 🏷️ **Plataforma:** Google + Meta. Conferir a origem do número antes de aplicar.
 
 **Gatilho de Uso:** Quando a fadiga (ver seção Fadiga de Criativos acima) destruir as peças em rodagem, ou durante brainstorm de lançamentos quinzenais.
 
@@ -70,6 +76,8 @@ Se você for sugerir novos direcionamentos fotográficos/videográficos ou de co
 
 # 🕵️‍♀️ 13 - Desmontagem e Ataque Concorrente
 
+> 🏷️ **Plataforma:** Google + Meta. Conferir a origem do número antes de aplicar.
+
 **Gatilho de Uso:** Perda de Market Share percebida, saturação do setor, fase de concepção de Novos Ganchos (Brainstorm Mensal). (Consolida Skills 13, 33 e 34).
 
 ## Analise Ad Library e Ad Transparency Center
@@ -90,6 +98,8 @@ Regra do Cérebro: Todo conteúdo Long Form ou Case Study Bom DEVE ser reciclado
 
 # 🕵️‍♂️ 33 - Desmontagem de Concorrente
 
+> 🏷️ **Plataforma:** Google + Meta. Conferir a origem do número antes de aplicar.
+
 **Gatilho de Uso:** Entendendo o Diferencial do Competidor (SaaS vs SaaS, Produto vs Produto).
 
 ## Framework de Desmontagem:
@@ -107,6 +117,8 @@ Não copie: Descubra onde eles são genéricos, e o seu Copy deve bater na ferid
 
 # ♻️ 34 - Matriz de Repurposing de Conteúdo
 
+> 🏷️ **Plataforma:** Meta Ads. Não aplicar em Google Ads.
+
 **Gatilho de Uso:** O time de Design secou as ideias e precisamos de "Novos" 10 criativos pro Meta Ads na semana.
 
 ## Regra Áurea da Reciclagem:
@@ -122,6 +134,8 @@ Pronto, o Facebook verá como novos Hash ID no algorítmo.
 **Descrição:** Regra para descobrir com quem os anúncios falam para alimentar o gerador de copy.
 
 # 🧠 38 - Auditoria Estrutural de ICP (Ideal Customer Profile)
+
+> 🏷️ **Plataforma:** Google + Meta. Conferir a origem do número antes de aplicar.
 
 **Gatilho de Uso:** Início de um novo nicho e preparo para alimentar os Padrões de Hooks e Variantes de Copy (ver seção Variantes de Copy acima).
 

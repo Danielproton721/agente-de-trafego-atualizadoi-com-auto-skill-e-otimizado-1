@@ -2,15 +2,19 @@
 title: MASTER 04 - Google Search Optimization
 type: MASTER_SOP
 last_update: 2026-05-06
-tags: [master, google-ads, search, keywords, negativo, mineracao, canibalizacao]
+tags: [master, google-ads, search, keywords, negativo, mineracao, canibalizacao, plataforma/google]
 ---
 
 # MASTER 04 - Google Search Optimization
+
+> 🏷️ **Plataforma:** Google Ads.
 
 ## SOP 02 - Gasto Desperdiçado
 **Descrição:** Identificação de termos que consomem orçamento sem gerar conversão. Criação de listas de palavras negativas.
 
 # 💸 02 - Localizador de Gasto Desperdiçado (Google Ads)
+
+> 🏷️ **Plataforma:** Google Ads.
 
 **Gatilho de Uso:** Higiene mensal; onboarding de conta; antes de pedir aumento de verba.
 
@@ -36,6 +40,8 @@ Termos que a IA ou o gestor devem matar na hora se o cliente não oferecer isso 
 
 # ⛏️ 07 - Mineração de Termos de Busca
 
+> 🏷️ **Plataforma:** Google Ads.
+
 **Gatilho de Uso:** Campanhas atingiram platô (acabou o volume); lançamento de novo produto; onboarding para achar o que o gestor anterior perdeu.
 
 ## Instrução de Processo
@@ -53,6 +59,8 @@ Separar o joio do trigo:
 **Descrição:** Identificador de concorrência interna severa no Ecossistema de Google Ads.
 
 # ⚔️ 20 - Análise de Canibalização de Palavra-chave
+
+> 🏷️ **Plataforma:** Google Ads.
 
 **Gatilho de Uso:** CPA do Google subindo, Lances flutuantes misteriosos na mesma conta.
 

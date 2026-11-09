@@ -1,11 +1,13 @@
 ---
 title: 29 - Benchmarks
 type: Data
-tags: [mercado, cpm, ctr]
+tags: [mercado, cpm, ctr, plataforma/meta]
 description: "Indicadores absolutos de mercado para o sistema se guiar caso a conta atual não tenha histórico."
 ---
 
 # 📊 29 - Benchmarking de Mercado
+
+> 🏷️ **Plataforma:** Meta Ads. CTR/CPM abaixo são de **feed**, não de busca. Não usar para diagnosticar campanha Google. Sem lastro nas contas do Daniel — referência, não regra.
 
 **Gatilho de Uso:** Conta Zerada sem dados de Machine Learning.
 

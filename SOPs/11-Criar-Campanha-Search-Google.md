@@ -1,9 +1,9 @@
 ---
 title: Criar Campanha Search Google Ads (AdsPower + Playwright)
 type: SOP
-tags: [google-ads, execucao, playwright, adspower, search]
+tags: [google-ads, execucao, playwright, adspower, search, plataforma/google]
 priority: 1
-last_update: 2026-04-22
+last_update: 2026-07-10
 description: "SOP procedural executável V2. Padrão Híbrido (AdsPower fingerprint + Playwright snapshot-first). Cada fase começa com snapshot, não com selector cego."
 ---
 
@@ -21,7 +21,7 @@ description: "SOP procedural executável V2. Padrão Híbrido (AdsPower fingerpr
 
 1. **`obsidian-rag.search`** em `Conhecimento/Erros/` com keywords "google ads campanha search" → carregar armadilhas conhecidas
 2. **`obsidian-rag.search`** em `Conhecimento/Licoes/` com nicho/plataforma/modo → não ignorar aprendizado validado
-3. **`Memorias/Status-Atual.md`** → conta já passou do pacing? Se sim, alertar antes de adicionar nova campanha
+3. **Ficha do perfil** (`Memorias/Contas/<perfil>/<perfil>.md`) → conta já passou do pacing? Se sim, alertar **no chat** antes de adicionar nova campanha
 4. **`Conhecimento/Selectors/google-ads/`** (se existir) → seletores conhecidos do mês corrente
 
 Se RAG retornar lição/erro relevante, **citar `[[Erros/...]]` ou `[[Licoes/...]]`** na resposta antes de executar.
@@ -30,9 +30,10 @@ Se RAG retornar lição/erro relevante, **citar `[[Erros/...]]` ou `[[Licoes/...
 
 - [ ] **Perfil AdsPower** (nome ou user_id) → consultar SOP 12
 - [ ] **Modo operacional** (PMF ou Conversion) → SOP 00
-- [ ] **Objetivo** (Leads / Vendas / Tráfego / Sign-ups)
+- [ ] **Objetivo** = **SEMPRE "Vendas"** (nunca Tráfego/Leads — planos antigos com Tráfego estão desatualizados)
 - [ ] **Budget diário** (R$) — confirmar 2x
-- [ ] **Estratégia de lance** (Manual CPC / Max Clicks / tCPA / tROAS)
+- [ ] **Estratégia de lance** (combo padrão: Vendas + meta Compra + Maximizar Conversões + **IA Max OFF**) → SOP 02
+- [ ] **Rastreamento definido** → régua de complexidade do [[20-Fundamentos-Rastreamento]] (oferta simples = conversão do próprio Google resolve)
 - [ ] **Localização** (BR / estado / cidade)
 - [ ] **Idioma** (default: Português)
 - [ ] **Keywords** + **match type** (default: Phrase)
@@ -118,7 +119,7 @@ Se RAG retornar lição/erro relevante, **citar `[[Erros/...]]` ou `[[Licoes/...
 41. mcp__adspower-local-api__close-browser(user_id)
 42. Mover screenshots → Memorias/Contas/<perfil>/outputs/YYYY-MM-DD-criar-campanha/
 43. Atualizar Memorias/Contas/<perfil>/<perfil>.md (campanha ativa, budget, métricas alvo)
-44. Atualizar Memorias/Status-Atual.md (referência global da nova campanha)
+44. Reportar no chat a criação da nova campanha (arquivo Status-Atual.md é PROIBIDO)
 45. Criar Memorias/Contas/<perfil>/log-YYYY-MM-DD.md com resumo + decisões
 46. Triagem fim-de-sessão (AGENTS §6):
     - Algo novo aprendido? → Conhecimento/Licoes/
@@ -137,11 +138,26 @@ Se RAG retornar lição/erro relevante, **citar `[[Erros/...]]` ou `[[Licoes/...
 4. **Nunca publicar ativa em modo Conversion sem review humano** — pausa primeiro.
 5. **Pacing check** (SOP 02) — se conta já está acima do pacing do mês, alertar antes.
 6. **`browser_network_requests` na publicação** — confirmar 200 OK; se 4xx/5xx, NÃO marcar como sucesso.
+7. **⏰ TIMING: ativar SÓ de manhã (~6-8h).** Ativada à tarde/noite = Google despeja o budget diário nas horas restantes (Azizi 09/06: R$92,94 queimados). Aprovação saiu tarde → deixar PAUSADA, ativar de manhã. Pausar/despausar 1x overnight NÃO reseta aprendizado.
+8. **🍺 Compliance álcool (nicho bebidas):** texto E keywords neutros ("Bebida Gelada", "Adega", "Disk Bebidas", "adega 24 horas") — NUNCA marca de bebida ou palavra alcoólica. Reprova em 2 lugares: texto ("limitado pela política") e keyword (erro "Alcohol information" bloqueante).
+9. **📍 `{LOCATION(City)}` em RSA:** NUNCA via fill-input (vira texto literal → reprova por "Letras maiúsculas"). Só pelo menu nativo (clicar `{` → Inserção de local → Aplicar = chip azul). Fallback CURTO: "cidade".
+10. **👻 Check anti-conversão-fantasma (pós-publicação):** Metas → Conversões → conferir que PageView NÃO é Principal/Padrão da conta. PageView = Secundária. Nunca apagar a ação (label hardcoded no site). Detalhe: [[20-Fundamentos-Rastreamento]].
+11. **Match type ao replicar vencedora:** clonar campanha = clonar também o match type das keywords que venderam (exata sufoca volume; Jair vendeu em AMPLA). Abrir pra ampla em ETAPAS, com negativas já instaladas.
+12. **🔍 Auditoria de conformidade da LP (ANTES de publicar).** Rodar via `curl` + parse (regex no HTML, grep nos chunks JS) — não precisa de CDP. Checklist:
+    1. **CNPJ e Razão Social idênticos** em TODAS as páginas do site.
+    2. Tag base do Google presente (`AW-XXX`, `gtag`).
+    3. **SPA/Next.js:** conferir os chunks da rota de checkout (`_next/static/chunks/`) — o label de conversão tem que estar lá.
+    4. Política de trocas citando **CDC + 7 dias**.
+    5. SSL + HSTS, e sem hash duplicado de lojas externas.
+    6. Link de Trocas no rodapé.
+    7. E-mail de contato com domínio coerente com o site.
+    8. **Zero claim não comprovável** (selo de reputação fabricado, volume de vendas inventado) — isso é política de Deturpação e derruba a conta, não só o anúncio.
 
 ## ⚠️ Troubleshooting
 
 | Sintoma | Ação | Catalogar em |
 |---|---|---|
+| **Modal "Confirme sua identidade" ao salvar ORÇAMENTO** | O popup abre em janela separada, **fora do alcance da automação**. PARAR, pedir ao Daniel completar a verificação manual na janela do perfil (senha na ficha), e só então repetir o save. **Não** insistir em "Tentar novamente" via script. O estado do formulário sobrevive — não precisa repreencher. | já catalogado |
 | Snapshot não acha botão esperado | UI mudou. Pedir Daniel apontar. Atualizar `Conhecimento/Selectors/google-ads/` | `Conhecimento/Erros/` |
 | AdsPower trava com ad-blocker | Bug conhecido. Desabilitar extensão ou trocar perfil | já catalogado |
 | Conta sem conversão de base | Forçar Manual CPC, ignorar pedido de tCPA | `Conhecimento/Licoes/` |
@@ -150,6 +166,7 @@ Se RAG retornar lição/erro relevante, **citar `[[Erros/...]]` ou `[[Licoes/...
 | Network request retorna 5xx na publicação | Não marcar sucesso. Esperar 30s, tentar 1x. Se falhar, abortar | `Conhecimento/Erros/` |
 
 ## 📎 Ver também
+- [[20-Fundamentos-Rastreamento]] — régua de complexidade de tracking (decidir ANTES de publicar)
 - [[00-Modo-Operacional]] — decide lente antes de começar
 - [[12-Gestao-Perfis-AdsPower]] — prepara ambiente
 - [[13-Decisao-AdsPower-vs-Playwright]] — por que padrão Híbrido aqui

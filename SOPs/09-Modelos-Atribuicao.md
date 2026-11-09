@@ -1,7 +1,7 @@
 ---
 title: 26 - Modelos de Atribuição
 type: SOP
-tags: [atribuicao, jornada, fbxg, roas, last click]
+tags: [atribuicao, jornada, fbxg, roas, last click, plataforma/google, plataforma/meta]
 description: "Diagnóstico de distorções de relatório devido a diferença de atribuição entre as plataformas."
 ---
 

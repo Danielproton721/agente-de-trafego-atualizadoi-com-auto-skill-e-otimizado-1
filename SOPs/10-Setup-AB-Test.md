@@ -1,7 +1,7 @@
 ---
 title: 28 - Setup e Analise de AB Test
 type: SOP
-tags: [testes, significancia, ab test, validacao]
+tags: [testes, significancia, ab test, validacao, plataforma/google, plataforma/meta]
 description: "A matemática fria para aprovação de testes. Como evitar ser enganado pela variação de curto prazo."
 ---
 

@@ -4,31 +4,53 @@
     "type": "split",
     "children": [
       {
-        "id": "a3d07042ee647001",
+        "id": "4d81e213feba7d44",
         "type": "tabs",
         "children": [
           {
-            "id": "68179c933efddf58",
+            "id": "48a270f304939c76",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Visualização em gráfico"
+              "type": "markdown",
+              "state": {
+                "file": "Conhecimento/Licoes/Licoes-Aprendidas-Farm-Ads-Parte-2.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Licoes-Aprendidas-Farm-Ads-Parte-2"
             }
           },
           {
-            "id": "d87c42a8d90f3cd4",
+            "id": "3da72db267428590",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Memorias/Logs-Globais/log-2026-07-25-ouro-do-rio.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "Nova aba"
+              "title": "log-2026-07-25-ouro-do-rio"
+            }
+          },
+          {
+            "id": "77b224d43946b560",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Memorias/Contas/ZiebrechtYeyo181/outputs/pacote-campanha-delivery-bebida-2026-06-26.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "pacote-campanha-delivery-bebida-2026-06-26"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -42,13 +64,15 @@
         "type": "tabs",
         "children": [
           {
-            "id": "ed9c434643f5f121",
+            "id": "76cd26f98934e0a0",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": true
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "Explorador de arquivos"
@@ -72,7 +96,7 @@
             }
           },
           {
-            "id": "9e096e34e840ad4c",
+            "id": "5f1f5a05b09da184",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -85,22 +109,23 @@
       }
     ],
     "direction": "horizontal",
-    "width": 301.5
+    "width": 200
   },
   "right": {
     "id": "3565a8696351f279",
     "type": "split",
     "children": [
       {
-        "id": "5ce37deae0e05a4f",
+        "id": "43fa22f51c45f2cf",
         "type": "tabs",
         "children": [
           {
-            "id": "65dc8edff565d3a4",
+            "id": "40ba7cc832a99775",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Memorias/Contas/AziziNexhip582/outputs/2026-06-02-checklist-desvinculacao-loja-fionobre.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,24 +135,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Links inversos"
+              "title": "Links inversos para 2026-06-02-checklist-desvinculacao-loja-fionobre"
             }
           },
           {
-            "id": "4cab2b1b236c96c1",
+            "id": "c102119964b893a2",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Memorias/Contas/AziziNexhip582/outputs/2026-06-02-checklist-desvinculacao-loja-fionobre.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Links de saída"
+              "title": "Links de saída para 2026-06-02-checklist-desvinculacao-loja-fionobre"
             }
           },
           {
-            "id": "3110aef5ac8180d7",
+            "id": "fdf1d2f67c0eafaa",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -142,7 +168,7 @@
             }
           },
           {
-            "id": "cba292d10f52df39",
+            "id": "9e731de20c136b25",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -156,74 +182,105 @@
             }
           },
           {
-            "id": "c9c5074f1805b6be",
+            "id": "e64454867bafc52c",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
+                "file": "Memorias/Contas/AziziNexhip582/outputs/2026-06-02-checklist-desvinculacao-loja-fionobre.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Sumário"
+              "title": "Sumário de 2026-06-02-checklist-desvinculacao-loja-fionobre"
+            }
+          },
+          {
+            "id": "9c6949ea1ea5e4df",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 200,
     "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
+      "full-calendar-remastered:FCR Command": false,
       "switcher:Abrir a troca rápida": false,
       "graph:Abrir visualização em gráfico": false,
       "canvas:Criar novo canvas": false,
       "daily-notes:Abrir a nota de hoje": false,
       "templates:Inserir modelo": false,
       "command-palette:Abrir paleta de comandos": false,
-      "bases:Criar nova base": false
+      "obsidian-kanban:Create new board": false,
+      "full-calendar-remastered:Open Full Calendar": false,
+      "realclaudian:Open Claudian": false
     }
   },
-  "active": "d87c42a8d90f3cd4",
+  "active": "77b224d43946b560",
   "lastOpenFiles": [
-    "SOPs/14-Aquecimento-Perfil-AdsPower.md",
-    "AGENTS-CORE.md",
-    "2026-05-06.md",
-    "Sem título.base",
-    "AGENTS-ROUTING.md",
-    "Templates/licao.md",
-    "Templates/log-conta.md",
+    "Conhecimento/Erros/rag-cli-encoding-cp1252.md",
+    "Memorias/Logs-Globais/log-2026-11-09-fechamento-vault.md",
+    "Conhecimento/Licoes/ouro-do-rio-conceito-de-operacao.md",
+    "Calendario/Eventos/pendencias-criticas.md",
+    "Calendario/Eventos",
+    "Calendario",
+    "Templates/referencia.md",
     "Templates/log-global.md",
+    "Templates/log-conta.md",
+    "Templates/licao.md",
     "Templates/erro.md",
     "Templates/conta.md",
-    "gerar cache no navegador e aceitar cookies pra ter bagagem de historico.md",
-    "( IGNORAR ) ideias para melhorara a autonimia do jarvis/2026-04-23-arquitetura-jarvis-real-event-driven.md",
-    "Conhecimento/Referencias.md",
-    "Conhecimento/Erros/adspower-navigate-requires-explicit-connect.md",
-    "AGENTS.md",
-    "perfil.md",
-    "Memorias/Logs-Globais.md",
+    "Templates",
+    "Conhecimento/Erros/adspower-free-sem-open-browser-api.md",
+    "Conhecimento/Licoes/Licoes-Aprendidas-Farm-Ads-Parte-2.md",
+    "Memorias/Logs-Globais/log-2026-07-25-ouro-do-rio.md",
+    "Metricas/Benchmarks-Mercado.md",
+    "outputs/padroes-copy-ugc-brinquedo-wip.md",
     "Memorias/Config/Sessao-Protocolo.md",
-    "Metricas/14-Quality-Score.md",
-    "Metricas/18-Frequency-Cap.md",
-    "Metricas/31-Estatistico-AB-Test.md",
-    "Metricas/29-Benchmarking.md",
+    "Conhecimento/Licoes/Recomendacao-Google-Auto-Aplicada-Amplas.md",
+    "Conhecimento/Licoes/Plano-Medicao-Pensamento-Estrategico.md",
+    "Conhecimento/Erros/Entupir-Events-Linguica.md",
+    "Conhecimento/Erros/Copy-Paste-GTM-Estrutura-Complexa.md",
+    "Conhecimento/Erros/Confiar-UTM-LastClick.md",
+    "Conhecimento/Erros/API-Fora-Dominio-Bloqueio.md",
+    "Conhecimento/Erros/adspower-screenshot-timeout-sessao-longa.md",
+    "Conhecimento/Erros/adspower-navigate-requires-explicit-connect.md",
+    "Conhecimento/Erros/adspower-lista-vazia-parar-e-perguntar.md",
     "Metricas/44-UTM-Tracking.md",
-    "SOPs/05-Narrativas-Relatorio.md",
-    "SOPs/20-Canibalizacao-Keywords.md",
-    "INDEX.md",
-    "SOPs/04-Fadiga-Criativos.md",
-    "TESTE memoria geral jarvis/Templates/referencia.md.tmp.19148.1776916650667",
-    "TESTE memoria geral jarvis/Templates/erro.md.tmp.19148.1776916643333",
-    "TESTE memoria geral jarvis/Templates/entidade.md.tmp.19148.1776916608867",
-    "TESTE memoria geral jarvis/Memorias/Preferencia-Usuario.md.tmp.19148.1776916600233",
-    "TESTE memoria geral jarvis/INDEX.md.tmp.19148.1776916555926",
-    "TESTE memoria geral jarvis/AGENTS.md.tmp.19148.1776916536875",
-    "TESTE memoria geral jarvis/README.md.tmp.19148.1776916486279",
-    "TESTE memoria geral jarvis/raw",
-    "TESTE memoria geral jarvis/Metricas"
+    "Memorias/Logs-Globais/log-2026-07-25-ouro-do-rio.md.tmp.16128.dc241f5663cc",
+    "Memorias/Logs-Globais/log-2026-07-25-ouro-do-rio.md.tmp.16128.19ed8807dfc5",
+    "SOPs/25-Meta-Ads-Estrutura-e-Publicos.md.tmp.16128.90e5be32ff40",
+    "AGENTS-ROUTING.md.tmp.16128.2c8ef5653ca1",
+    "AGENTS-ROUTING.md.tmp.16128.403dd5b1ec77",
+    "SOPs/26-Meta-Ads-Primeira-Campanha.md.tmp.16128.d9f00ceac05e",
+    "SOPs/24-Meta-Ads-Fundamentos.md.tmp.16128.6294eb89ae13",
+    "Memorias/Contas/AziziNexhip582/outputs/2026-06-06-criar-campanha/fase4-config-campanha.png/screenshot-1780793709299-s18tq9qvpnb.png",
+    "ChatGPT_Image_19_de_jun._de_2026__05_51_45-removebg-preview.png",
+    "Memorias/Contas/AziziNexhip582/outputs/2026-06-06-criar-campanha/fase4-iamax.png/screenshot-1780793839369-d2wia4zno9.png",
+    "Memorias/Contas/AziziNexhip582/outputs/2026-06-06-criar-campanha/conversao-compra-aberta.png/screenshot-1780795297025-3rpgo0q78w6.png",
+    "Memorias/Contas/AziziNexhip582/outputs/2026-06-06-criar-campanha/sitelinks-criados.png/screenshot-1780957309267-fl55e0wcgf.png",
+    "outputs/2026-06-18-befood-logo/_preview.png",
+    "Conhecimento/Referencias/Keyword-Research/2026-06-11-achados-pantufa-frio-recorde/snapshots/trends-7d-pantufa-pico-100.png/screenshot-1781153925199-7u3nncobdg8.png",
+    "Conhecimento/Referencias/Keyword-Research/2026-06-11-achados-pantufa-frio-recorde/snapshots/planner-volumes-pantufa.png/screenshot-1781154154611-a5una10lkqc.png",
+    "scripts/yuuya_verification_status.png/screenshot-1778872160653-uyvhlr0lfkr.png",
+    "scripts/van020_status.png/screenshot-1778218989498-7j3iooreo33.png",
+    "Freemium/Sem título.canvas",
+    "Sem título.canvas",
+    "Sem título 5.canvas",
+    "Sem título 4.canvas",
+    "Sem título 3.canvas",
+    "Sem título 2.canvas",
+    "Sem título 1.canvas"
   ]
 }

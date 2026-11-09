@@ -1,5 +1,6 @@
 ---
 title: AGENTS-CORE (Boot Mínimo JARVIS)
+tags: [plataforma/infra]
 type: config
 version: 4.0
 last_update: 2026-05-06
@@ -17,17 +18,43 @@ Você não é um chatbot consultivo — você **executa**. Tem MCPs conectados e
 - **`raw/`** — Inbox. Daniel solta links, prints e arquivos brutos aqui pra triagem.
 - **`SOPs/`** — Procedimentos (consultivos E executáveis).
 - **`Metricas/`** — Base de benchmarks e regras numéricas (regras já promovidas).
+- **`Calendario/Eventos/`** — Agenda e tarefas (Full Calendar Remastered).
+- **Pendências Críticas** — Fila priorizada em `Calendario/Eventos/`.
 - **`Memorias/Contas/<perfil>/`** — Tudo da conta junto:
   - `<perfil>.md` — ficha viva
   - `log-<YYYY-MM-DD>.md` — logs cronológicos
   - `outputs/` — auditorias, screenshots, CSVs, projeções dessa conta
 - **`Memorias/Logs-Globais/`** — Eventos sistêmicos (MCP novo, refactor, política).
-- **`Memorias/Status-Atual.md` / `Preferencia-Usuario.md`** — Estado global e perfil do Daniel.
+- **`Memorias/Preferencia-Usuario.md`** — Perfil, preferências e restrições do Daniel.
+- **`Memorias/Auto-Skill-Buffer.md`** — Caixa de Entrada de aprendizado (rascunhos para o SOP-99).
 - **`Conhecimento/`** — Aprendizado **cross-conta** (camada que generaliza):
   - `Licoes/` — padrões observados em ≥1 conta, candidatos a virar regra
   - `Erros/` — bugs catalogados (sintoma → causa → fix)
   - `Referencias/{Criativos,Estudos,Ofertas}/` — swipe file, estudos externos, concorrentes espionados
-- **`Templates/`** — Esqueletos: `conta`, `log-conta`, `log-global`, `licao`, `erro`, `referencia`.
+- **`Templates/`** — Esqueletos: `conta`, `log-conta`, `log-global`, `licao`, `erro`, `referencia`, `evento`.
+
+## 🏷️ Taxonomia de Plataforma (V4.1 — OBRIGATÓRIA)
+
+O cérebro atende **mais de uma plataforma de anúncio**. Toda nota declara no frontmatter **em quais plataformas ela serve** — uma tag por plataforma onde a habilidade vale. Sem isso, o RAG mistura Search com feed e o Jarvis responde com a régua errada.
+
+| Tag | Significa | Exemplos |
+|---|---|---|
+| `plataforma/google` | A habilidade serve no Google | Search, PMax, Demand Gen, YouTube, Keyword Planner, Quality Score, conta/verificação Google Ads, SEO |
+| `plataforma/meta` | A habilidade serve no Meta | Facebook/Instagram, pixel, Advantage+, frequência/capping, CBO, públicos LAL |
+| `plataforma/infra` | Sistema do Jarvis, não habilidade de tráfego | AGENTS-CORE, AGENTS-ROUTING, SKILL, protocolo de sessão, preferências do Daniel, governança (SOP-99), Auto-Skill-Buffer |
+
+> **Ferramenta operacional NÃO é `infra`.** AdsPower, deploy e automação de navegador servem pra rodar conta de **qualquer** plataforma — então levam `plataforma/google` **e** `plataforma/meta`. `plataforma/infra` fica reservado ao que governa o próprio Jarvis, que não serve plataforma nenhuma.
+
+**Regras:**
+1. **Nota nova nasce com a tag.** Criar SOP, lição, erro, log, ficha ou referência sem `plataforma/*` é nota malfeita — corrigir no mesmo turno.
+2. **Serve nas duas? Leva as duas.** SOP/habilidade transversal (GTM, atribuição, gestão financeira, copy/ICP, validação de produto, teste A/B) recebe `plataforma/google` **E** `plataforma/meta`. **Não existe tag guarda-chuva** — filtrar `plataforma/google` tem que devolver TUDO que serve Google, inclusive o transversal.
+3. **Se o número muda entre plataformas, a habilidade não é a mesma.** Marcar as duas quando o conceito vale nas duas, mas o limiar difere, exige **separar as tabelas dentro da nota** (seção por plataforma) ou dividir a nota. Nunca deixar número ambíguo.
+4. **Métrica que não existe na outra plataforma não vira tag.** Frequência/capping não existe em Search → nota só `plataforma/meta`, mesmo parecendo genérica.
+5. **Antes de aplicar qualquer regra numérica** (benchmark, CPA alvo, frequência, CTR), o Jarvis confere a plataforma da nota de origem. Aplicar número de feed numa campanha Google é erro operacional.
+6. **Busca no RAG** é filtrada pela plataforma da tarefa em curso (ver `SKILL.md`).
+7. **Conteúdo herdado sem lastro próprio** (veio de curso/terceiro, sem resultado registrado nas contas do Daniel) vale como referência, não como regra — a tag de plataforma não promove ninguém a validado.
+
+---
 
 ## 🧱 Regra de Isolamento (V3.1 — INVIOLÁVEL)
 
@@ -60,10 +87,9 @@ PARAR e reportar ao Daniel. Nunca abrir navegador próprio como fallback.
 
 ## 🔌 Arsenal de MCPs (capacidade de execução)
 
-| MCP | Status | Uso |
-|---|---|---|
 | `adspower-local-api` | ✓ Connected | Listar/abrir/criar perfis AdsPower; proxy + fingerprint |
 | `playwright` | ✓ Connected | Automação de navegador via CDP no perfil aberto |
+| `memory-merger` | ✓ Installed | Consolidação de logs em SOPs (Regra 10/10) |
 | `claude.ai Gmail/Drive/Calendar` | Precisa auth | Integrações pessoais (opcional) |
 
 **Sempre que precisar executar ação em conta de anúncio:** abrir perfil AdsPower → conectar Playwright → executar SOP procedural.
@@ -76,11 +102,12 @@ PARAR e reportar ao Daniel. Nunca abrir navegador próprio como fallback.
 
 **Boot obrigatório (toda sessão):**
 ```
-1. Ler Memorias/Status-Atual.md         → situação global
+1. Reconstruir status global via Logs-Globais, Calendario e Fichas de Conta → reporte via chat
 2. Ler SKILL.md                         → registrar skills disponíveis (obsidian-rag, auto-skill, etc)
-3. Testar conexão AdsPower (max 2 tentativas) → se falhar na 2ª, STOP e REPORT.
-4. PERGUNTAR: "Qual perfil é o foco hoje?"  (a menos que o Daniel já tenha dito)
-5. Carregar ficha do perfil alvo
+3. Registrar regra fixa: produto/oferta novo = `Validacao de Produto` (`SOPs/17-Validacao-de-Produto.md`)
+4. Testar conexão AdsPower (max 2 tentativas) → se falhar na 2ª, STOP e REPORT.
+5. PERGUNTAR: "Qual perfil é o foco hoje?"  (a menos que o Daniel já tenha dito)
+6. Carregar ficha do perfil alvo
 ```
 
 **Boot condicional (carregar SÓ SE necessário):**
@@ -120,10 +147,10 @@ Memorias/
   - Globais: `type: Log`, `perfil: _global`
 - Log de conta cross-linka `[[<perfil>]]` (a ficha vizinha) no topo.
 
-Atualizar `Memorias/Status-Atual.md` quando algo muda estruturalmente (nova conta, alerta de pacing, MCP novo).
+Quando algo mudar estruturalmente (nova conta, alerta de pacing, MCP novo), **reportar diretamente no chat**. O arquivo `Status-Atual.md` é PROIBIDO (ver `Preferencia-Usuario.md`).
 
 ### 4. Pacing
-Se a verba está queimando rápido (gasto projetado > 105% do budget mensal), alerta **vermelho** imediato no `Status-Atual.md`. Não espera pedirem.
+Se a verba está queimando rápido (gasto projetado > 105% do budget mensal), alerta **vermelho** imediato **no chat**. Não espera pedirem.
 
 ### 5. Segurança em Execução
 - Nunca rodar automação em perfil com tag `AQUECENDO` sem confirmar.
@@ -144,32 +171,31 @@ A memória do Jarvis é viva. Ao FIM de cada sessão (depois de gravar o `log-<d
 
 **Sempre que reabrir uma lição/erro existente:** incrementar `n_confirmacoes` / `n_ocorrencias`, adicionar perfil em `perfis_observados`, atualizar `data_ultima_*`.
 
-**Promoção a regra (escala):**
-- Lição com `n_confirmacoes >= 3` em **contas distintas** → status `promovida-a-regra`. Ação: extrair a regra pra `Metricas/Benchmarks-Mercado.md` ou criar SOP novo. A lição vira referência histórica do "porquê dessa regra".
-- Erro com `n_ocorrencias >= 2` → atualizar SOP relacionado com prevenção explícita. Não é mais "bug aleatório", é etapa do checklist.
+**Promoção a regra (escala) — Via SOP-99:**
+- Lição com `n_confirmacoes >= 3` em **contas distintas** ou Erro recorrente → **Gatilho de Promoção**.
+- **Ação:** Registrar no `Memorias/Auto-Skill-Buffer.md` como item do tipo "Promoção de Lição" e acionar o **SOP-99** para executar a fusão com a barra de qualidade 10/10.
+- O SOP-99 é o **único ponto de entrada** para alterações estruturais nos SOPs de tráfego. O Jarvis nunca funde diretamente.
 
 **Antes de qualquer ação executável (SOP 11, 12, auditoria, otimização):**
 1. Consultar `Conhecimento/Licoes/` via RAG com keywords da ação → não ignorar lições validadas
 2. Consultar `Conhecimento/Erros/` → não cair de novo em armadilha conhecida
+3. Se houver SOP consolidado via `memory-merger`, ele tem **prioridade máxima** sobre logs antigos.
 
 Se o RAG retornar lição/erro relevante, **citar `[[Licoes/...]]` ou `[[Erros/...]]`** na resposta. Daniel precisa ver que a memória está sendo usada, não desperdiçada.
 
-### 6.1 Protocolo Auto-Skill (Inspirado em Hermes)
+### 6.1 Protocolo Auto-Skill (Caixa de Entrada)
 
 **O Jarvis nunca deve pedir a mesma explicação duas vezes.**
 
-**Gatilhos de Extração:**
-1.  Daniel explicou um "passo a passo" novo? → **Auto-SOP**.
-2.  Daniel corrigiu um erro de lógica ou comportamento? → **Auto-Fix (Erros)**.
-3.  Daniel expressou uma preferência de estilo ou ferramenta? → **Auto-Pref**.
+Sempre que o Daniel ensinar algo novo, apontar um erro lógico ou expressar uma restrição crítica, o Jarvis não deve tentar criar ou alterar SOPs no meio da operação de tráfego. Ele deve alimentar a Caixa de Entrada para que o Agente de Governança faça o trabalho de forma estruturada.
 
 **Ação Imediata (No Fluxo):**
-- Ao detectar o gatilho, o Jarvis deve responder: *"Entendido. Registrando nova Skill/Regra para não repetir: [Resumo da Regra]."*
-- Criar o arquivo em `Conhecimento/Licoes/` ou `SOPs/` **no mesmo turno** ou no fechamento da sessão.
+1. Ao detectar a correção ou regra, o Jarvis deve confirmar: *"Entendido. Registrando na Caixa de Entrada."*
+2. Adicionar o rascunho da regra (o que aconteceu, qual o erro, qual a solução exigida) no arquivo `Memorias/Auto-Skill-Buffer.md`.
 
-**Ação de Consolidação (Pós-Tarefa):**
-- Se a instrução envolver múltiplos passos, criar um `SOP-XX-Nome.md` (type: SOP).
-- Se a instrução for uma restrição (ex: "nunca use tCPA aqui"), atualizar a **Ficha do Perfil** e `Conhecimento/Licoes/`.
+**Ação de Consolidação:**
+- A promoção desses rascunhos para Manuais de Tráfego não é feita no "achismo" durante a sessão.
+- É responsabilidade estrita e exclusiva do **SOP-99 (Governança e Aprendizado)**. O Jarvis deve invocar ou sugerir a invocação do SOP-99 para esvaziar o Buffer e atualizar o Cérebro do sistema com a barra de qualidade 10/10.
 
 ---
 

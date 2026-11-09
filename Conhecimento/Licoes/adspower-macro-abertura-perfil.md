@@ -9,7 +9,7 @@ n_confirmacoes: 1
 status: validada
 data_primeira_observacao: 2026-04-23
 data_ultima_observacao: 2026-04-23
-tags: [licao, mcp-adspower, fluxo-execucao]
+tags: [licao, mcp-adspower, fluxo-execucao, plataforma/google, plataforma/meta]
 ---
 
 # 📚 Abertura de perfil AdsPower é sempre 3 passos, nunca 2

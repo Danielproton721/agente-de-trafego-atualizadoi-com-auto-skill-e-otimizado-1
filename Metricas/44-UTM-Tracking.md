@@ -1,7 +1,7 @@
 ---
 title: 44 - Parâmetros UTM e Padronização
 type: Data
-tags: [analytics, GA4, tags, utms, tracking externo]
+tags: [analytics, GA4, tags, utms, tracking externo, plataforma/google, plataforma/meta]
 description: "A taxonomia inflexível de links e tagueamento exigida para não criar silos de tráfego quebrados."
 ---
 

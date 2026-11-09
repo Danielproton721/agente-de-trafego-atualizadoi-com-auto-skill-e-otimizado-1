@@ -8,7 +8,7 @@ data_primeira_ocorrencia: 2026-05-06
 data_ultima_ocorrencia: 2026-05-06
 n_ocorrencias: 2
 status: resolvido
-tags: [erro, adspower, comportamento, auto-skill]
+tags: [erro, adspower, comportamento, auto-skill, plataforma/google, plataforma/meta]
 ---
 
 # 🐛 AdsPower API retorna lista vazia (Diagnóstico vs. Instrução)

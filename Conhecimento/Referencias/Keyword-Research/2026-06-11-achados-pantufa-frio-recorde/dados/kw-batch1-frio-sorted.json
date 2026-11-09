@@ -1,0 +1,23 @@
+{
+  "sessao": "2026-06-11",
+  "sementes": ["aquecedor de ambiente", "manta elétrica", "pantufa", "bolsa de água quente", "meia térmica"],
+  "total_ideias_planner": 3766,
+  "periodo_planner": "jun/2025 a mai/2026 (média 12m)",
+  "conta": "452-118-7493",
+  "keywords": [
+    {"kw": "pantufa", "vol": 49500, "m3": "+173%", "yoy": "-18%", "comp": "Alta", "cpc_low": 0.24, "cpc_high": 2.64},
+    {"kw": "pantufa feminina", "vol": 22200, "m3": "+400%", "yoy": "+124%", "comp": "Alta", "cpc_low": 0.17, "cpc_high": 1.91},
+    {"kw": "bolsa de água quente", "vol": 18100, "m3": "+83%", "yoy": "+22%", "comp": "Alta", "cpc_low": 0.15, "cpc_high": 0.54},
+    {"kw": "aquecedor de ambiente", "vol": 14800, "m3": "+825%", "yoy": "+23%", "comp": "Alta", "cpc_low": 0.24, "cpc_high": 1.45},
+    {"kw": "pantufa infantil", "vol": 14800, "m3": "+309%", "yoy": "+49%", "comp": "Alta", "cpc_low": 0.14, "cpc_high": 1.52},
+    {"kw": "meia térmica", "vol": 12100, "m3": "+653%", "yoy": "+50%", "comp": "Alta", "cpc_low": 0.19, "cpc_high": 1.40},
+    {"kw": "pantufa masculina", "vol": 12100, "m3": "+652%", "yoy": "+124%", "comp": "Alta", "cpc_low": 0.17, "cpc_high": 1.95},
+    {"kw": "pantufa stitch", "vol": 9900, "m3": "+175%", "yoy": "-76%", "comp": "Alta", "cpc_low": 0.15, "cpc_high": 0.72},
+    {"kw": "manta elétrica", "vol": 720, "m3": "+233%", "yoy": "+82%", "comp": "Alta", "cpc_low": 0.25, "cpc_high": 1.32}
+  ],
+  "trends_7d_br": {
+    "pantufa": "dominante, média ~50, pico 100 em 09/06, sustentado todos os dias",
+    "aquecedor de ambiente": "2º, ~10-25, acelera nos dias mais frios (6 e 9 jun)",
+    "meia térmica": "menor, presente"
+  }
+}

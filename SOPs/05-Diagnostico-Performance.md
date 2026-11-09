@@ -2,15 +2,19 @@
 title: MASTER 05 - Diagnóstico de Performance
 type: MASTER_SOP
 last_update: 2026-05-06
-tags: [master, cpa, performance, diagnostico, dayparting, geografia, dispositivo]
+tags: [master, cpa, performance, diagnostico, dayparting, geografia, dispositivo, plataforma/google, plataforma/meta]
 ---
 
 # MASTER 05 - Diagnóstico de Performance
+
+> 🏷️ **Plataforma:** conteúdo **misto**. Os limiares de CTR/CPM/frequência vêm de **Meta**; dayparting, geografia e dispositivo valem nas duas. Declarar a plataforma antes de diagnosticar.
 
 ## SOP 01 - Diagnostico CPA
 **Descrição:** Procedimento investigativo focado na quebra do Custo Por Aquisição. Define como varrer os funis primários e secundários em busca da causa-raiz de aumentos.
 
 # 🔴 01 - Diagnóstico de CPA
+
+> 🏷️ **Plataforma:** Google + Meta. Conferir a origem do número antes de aplicar.
 
 **Gatilho de Uso:** Acionado quando o CPA sobe 15-20%+; ou quando a pergunta do gestor for "por que a performance caiu?".
 
@@ -38,6 +42,8 @@ A variação no CPA final sempre é gerada pela quebra de um destes gargalos do 
 
 # 🕒 12 - Performance por Dia e Hora (Dayparting)
 
+> 🏷️ **Plataforma:** Google + Meta. Conferir a origem do número antes de aplicar.
+
 **Gatilho de Uso:** Conta estabilizada precisando raspar margem; Orçamento pequeno esgotando ao meio-dia.
 
 ## Procedimento
@@ -54,6 +60,8 @@ Algoritmos Advantage+ e Pmax não aceitam Dayparting severo. Aplicar essa skill 
 **Descrição:** Escalonamento em Tiers (níveis) de zonas geográficas para que o Brasil inteiro não queime orçamento.
 
 # 🗺️ 24 - Análise Geográfica Rigorosa
+
+> 🏷️ **Plataforma:** Google + Meta. Conferir a origem do número antes de aplicar.
 
 **Gatilho de Uso:** Conta de alcance Nacional (Brasil Inteiro) onde o CPM é absurdo.
 
@@ -75,6 +83,8 @@ Extraia o relatório de Estados `(Breakdown: Region/State)`.
 
 # 📱 25 - Split e Análise por Dispositivo
 
+> 🏷️ **Plataforma:** Google + Meta. Conferir a origem do número antes de aplicar.
+
 **Gatilho de Uso:** Traffic Report aponta 90% dos cliques via Mobile e CPAs absurdos.
 
 ## Checklist Desktop vs Mobile Mestre
@@ -86,3 +96,26 @@ Se a proporção de conversão (CVR) do Mobile estiver despencando se comparado 
 - [ ] O CTA principal está acima da dobra num iPhone clássico?
 
 Sugerir lances negativos para Mobile só DEPOIS de esgotar as métricas de conversão.
+
+---
+
+# 🚨 Gate de Plataforma — ler ANTES de aplicar qualquer número deste SOP
+
+> 🏷️ **Plataforma:** Google + Meta. Conferir a origem do número antes de aplicar.
+
+**Boa parte da base numérica herdada do Cérebro é de Meta Ads, escrita em vocabulário genérico.** Aplicada em campanha Google, produz diagnóstico errado com aparência de fundamentado.
+
+| Fonte | Realmente é | Cuidado |
+|---|---|---|
+| `[[29-Benchmarking]]` | **Meta Ads** | "CTR de Link 1,2%" e CPM são de **feed**, não de busca |
+| `[[18-Frequency-Cap]]` | **Meta Ads** | **Frequência/capping não existe em Google Search.** Não traduzir por analogia |
+| `[[Benchmarks-Mercado]]` | **Misto** | A tabela de cima é Meta; a de Google Search vem depois. Ler a seção certa |
+| `[[03-Criativos-Copy-e-ICP]]` § Fadiga | **Meta Ads** | CTR vs Frequência é leitura de feed |
+
+**Regras:**
+1. **Declarar a plataforma antes de diagnosticar.** Sem isso, não aplicar limiar nenhum.
+2. **Métrica que não existe na plataforma → "não se aplica"**, nunca uma tradução aproximada.
+3. **Benchmark sem lastro** (sem venda/CPA registrado numa conta do Daniel) é **referência, não regra** — declarar como palpite. Ver `[[feedback_calibrar_confianca]]`.
+4. **Histórico da própria conta vence benchmark genérico**, sempre. O juiz é o gateway.
+
+> ⚠️ **Pendência de auditoria (24/07/2026):** as notas acima foram *etiquetadas* por plataforma, mas o **conteúdo não foi auditado item a item**. Saber que um número é de Meta não o torna válido — vários vieram de curso, sem lastro. Auditoria pendente no SOP-99.

@@ -1,7 +1,7 @@
 ---
 title: 14 - Quality Score
 type: Data
-tags: [google ads, leilao, cpc real, relevancia, ctr]
+tags: [google ads, leilao, cpc real, relevancia, ctr, plataforma/google]
 description: "Avaliação do índice de qualidade das palavras-chave para mitigar penalidades no custo do clique pelo Google."
 ---
 

@@ -4,7 +4,7 @@ type: Erro
 status: critico
 prioridade: pena-de-morte
 date: 2026-05-05
-tags: [falha-executiva, perda-de-dados, gemini-flash, consolidacao-falha]
+tags: [falha-executiva, perda-de-dados, gemini-flash, consolidacao-falha, plataforma/infra]
 ---
 
 # 🚫 ERRO GRAVÍSSIMO - Destruição de Dados em Massa

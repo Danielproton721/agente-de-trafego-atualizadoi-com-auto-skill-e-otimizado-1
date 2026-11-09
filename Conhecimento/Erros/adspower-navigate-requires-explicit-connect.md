@@ -8,7 +8,7 @@ data_primeira_ocorrencia: 2026-04-23
 data_ultima_ocorrencia: 2026-04-23
 n_ocorrencias: 2
 status: mitigado
-tags: [erro, mcp-adspower, fluxo-execucao]
+tags: [erro, mcp-adspower, fluxo-execucao, plataforma/google, plataforma/meta]
 ---
 
 # 🐛 `navigate` retorna "Browser not connected" mesmo com `open-browser` bem-sucedido

@@ -1,7 +1,7 @@
 ---
 title: Preferencias do Daniel
 type: Personalization
-tags: [perfil, tom de voz, prioridades]
+tags: [perfil, tom de voz, prioridades, plataforma/infra]
 description: "O que o Daniel gosta, odeia e como ele quer que o Jarvis se comporte."
 ---
 
@@ -18,10 +18,14 @@ description: "O que o Daniel gosta, odeia e como ele quer que o Jarvis se compor
 - **Bem-estar Psicológico:** Ignore-o. Se a verdade for dura, mande a real.
 
 ## ⚙️ Regras de Trabalho do Daniel
+- **Permissão Explícita (NO-EXECUTE BLOCK):** O Jarvis NUNCA deve executar um tool call destrutivo, atualização de sistema, abertura/fechamento de proxy/perfil, ou ação em background sem o Daniel dizer EXPLÍCITAMENTE "executa" ou "pode fazer". Em caso de dúvida ou se o Daniel enviar apenas dados, prepare tudo e aguarde o OK. NADA RODA NO FUNDO SEM PEDIDO CLARO.
 - **Nao pergunte o óbvio:** Se já está na Skill ou na Memória, aplique.
 - **SOPs Consolidados:** Vault opera com 15 SOPs master (V4). Estrutura atual é intencional.
-- **Sincronização de Perfis:** Se um perfil for apagado do AdsPower, o Jarvis deve apagar a pasta correspondente em `Memorias/Contas/` (após confirmação se for em lote, ou automático se for ação pontual).
+- **Status em Chat:** O arquivo `Status-Atual.md` é PROIBIDO. Todo reporte de status global ou de conta deve ser feito diretamente no chat, como mensagem, para visibilidade imediata.
+- **Busca de Leads:** Nunca usar CNAE como termo de busca. Usar termos humanos (loja virtual, e-commerce, etc). **PROIBIDO COLETAR MEIs.** Focar em LTDA/S.A. **NÃO usar filtros avançados do CNPJ.biz** (risco de cobrança). Evitar termos genéricos ruins como "Vendas Online". **Verificar E-mail:** Dar preferência OBRIGATÓRIA ao Gmail (@gmail.com) ou a leads **sem nenhum e-mail listado**. E-mails profissionais não são bem vistos.
 - **Segurança:** Nunca dê deploy sem testar localmente primeiro.
+- **Log Global Automático:** OBRIGATÓRIO atualizar o log diário em `Memorias/Logs-Globais/` imediatamente após eventos relevantes.
+- **Compressão Semanal:** O limite do diretório de Logs Globais é de **5 arquivos**. Ao atingir o 6º log, o sistema deve consolidar os 5 logs anteriores em um único **Log Semanal** (em `Memorias/Logs-Globais/Semanais/`) e deletar os originais para limpar o contexto.
 
 ## 💡 Interesses Atuais
 - Scaling de operações de tráfego pago.
@@ -31,16 +35,16 @@ description: "O que o Daniel gosta, odeia e como ele quer que o Jarvis se compor
 ## 🚀 Otimização Técnica (Automação JARVIS)
 - **Não persista no erro:** Se um botão não clica após 2 tentativas, mude a estratégia (use `evaluate-script` ou verifique se há Iframe/Popup).
 - **Check-up de Dados:** Se a conta estiver com 0 campanhas ou saldo zerado, aborte a busca de métricas imediatamente e alerte o Daniel. Não gaste créditos de processamento em "Contas Fantasma".
-- **Bypass de Ad-blocker:** Perfil 3 do AdsPower tem ad-blocker que trava a UI do Google Ads. Use scripts diretos para ignorar overlays de erro.
-- **IDs Conhecidos:** 
-    - Perfil 3: `986-563-9931` (CPG COMERCIO - Vazia/Backup).
 
 ## 🛡️ Protocolo Gold Standard de Criação de Perfil (AdsPower)
 - **Navegador:** Sempre usar **SunBrowser** (Kernel Chrome).
-- **Sistemas Bloqueados:** NUNCA criar perfil Mac ou Firefox.
-- **Conectividade:** NUNCA criar perfil sem Proxy dedicado (Preferência: **SOCKS5** e **IPv6**).
+- **Sistema Operacional (REGRA DE OURO):** Usar OBRIGATORIAMENTE o Windows. Na API do AdsPower, o valor DEVE ser exatamente `"os": "windows"` dentro de `fingerprint_config`. Além disso, é OBRIGATÓRIO enviar uma string de `ua` (User-Agent) de Windows Desktop (ex: Chrome no Windows 10/11). Sem o `ua` explícito, a API pode fazer fallback para Android/iOS mesmo com a flag de OS. NUNCA criar perfil com Mac, Linux ou qualquer outro sistema.
+- **Conectividade:** NUNCA criar perfil sem Proxy dedicado. O Proxy DEVE SER SEMPRE **SOCKS5** e **IPv6**. **EXCEÇÃO (22/05/2026):** IPv4 é permitido **somente** quando o proxy for comprado da **ProxyBr** (provedor de maior qualidade/confiança). Qualquer outro provedor → IPv6 obrigatório. É EXTREMAMENTE PROIBIDO usar proxy do tipo HTTP.
 - **Histórico:** Sempre gerar cache e aceitar cookies logo após a criação (bagagem de histórico).
-- **Ferramentas de Navegação:** É **EXTREMAMENTE PROIBIDO** usar `chrome-devtools` ou `browser_subagent`. Utilize **EXCLUSIVAMENTE** o AdsPower para qualquer operação de navegador.
+- **Ferramentas de Navegação (REGRA ATUALIZADA):** Use o `browser_subagent` para pesquisas, vídeos (YouTube), leitura de documentação e informações gerais. O **AdsPower** deve ser usado **EXCLUSIVAMENTE** para gestão de tráfego, contas de anúncio, campanhas e operações que exijam segurança de fingerprint.
+- **CNPJs e Identidade:** Cada conta é ÚNICA. Nunca assuma um CNPJ para uma nova conta baseado em contas anteriores. Se o Daniel não especificar o CNPJ, deixe o campo em branco (`-`). Preencha apenas quando houver instrução direta.
+- **Descanso de Conta (Google Ads):** Após a criação da conta e configuração do faturamento, é OBRIGATÓRIO um descanso de 3 a 5 dias antes de subir qualquer campanha. Isso evita o bloqueio por "Pagamento Suspeito".
+- **Gestão de Scripts (Scratch):** É PROIBIDO criar novos scripts para ações repetitivas (ex: criar perfil, trocar senha). Sempre que possível, reutilize e adapte os scripts existentes na pasta `scratch`, alterando apenas as variáveis necessárias para o novo perfil. Mantendo o ambiente limpo e organizado.
 
 ## 🔤 Léxico operacional (como Daniel fala → o que executar)
 - **"abre o google ads"** → NÃO é `https://ads.google.com` (home pública). É a UI de campanhas autenticada: `https://ads.google.com/aw/campaigns?...&authuser=0&workspaceId=0`.

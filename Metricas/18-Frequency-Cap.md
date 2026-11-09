@@ -1,11 +1,13 @@
 ---
 title: 18 - Frequency Cap
 type: Data
-tags: [metrics, frequencia, saturacao, capping]
+tags: [metrics, frequencia, saturacao, capping, plataforma/meta]
 description: "Thresholds de limite de entrega de anúncios para uma mesma pessoa antes do algoritmo começar a queimar dinheiro à toa."
 ---
 
 # 🛑 18 - Limites de Capping (Frequência Mestra)
+
+> 🏷️ **Plataforma:** Meta Ads. **Frequência/capping não existe em Google Search** — esta nota não se aplica a Search. Não traduzir por analogia.
 
 **Gatilho de Uso:** Quando CPMs estiverem subindo; após refresh de criativo; ou ao escalar gasto em conta de baixo volume demográfico.
 

@@ -1,0 +1,39 @@
+{
+  "_comentario": "Modelo sanitizado do .mcp.json. O arquivo real (.mcp.json) está no .gitignore porque carrega a API_KEY do AdsPower — o repositório é público. Para usar: copie para .mcp.json e preencha a key local.",
+  "mcpServers": {
+    "obsidian-rag": {
+      "type": "stdio",
+      "command": "uvx",
+      "args": [
+        "--python",
+        "3.13",
+        "obsidian-notes-rag",
+        "serve"
+      ],
+      "env": {}
+    },
+    "chrome-devtools": {
+      "type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "chrome-devtools-mcp@latest",
+        "--browserUrl",
+        "http://127.0.0.1:9222"
+      ],
+      "env": {}
+    },
+    "adspower-local-api": {
+      "type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "local-api-mcp-typescript"
+      ],
+      "env": {
+        "PORT": "50325",
+        "API_KEY": "<SUA_API_KEY_ADSPOWER_AQUI>"
+      }
+    }
+  }
+}

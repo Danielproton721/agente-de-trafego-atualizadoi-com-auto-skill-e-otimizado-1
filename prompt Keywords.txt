@@ -1,0 +1,178 @@
+# TAREFA: Mapeamento amplo de oportunidades de mercado via Keyword Planner
+
+Você tem acesso ao MCP do Google Ads desta conta. Use a API do Keyword Planner 
+(generateKeywordIdeas e generateKeywordHistoricalMetrics) para a varredura abaixo.
+
+## CONTEXTO E LÓGICA DO PEDIDO (LEIA COM ATENÇÃO)
+
+Sou gestor de tráfego procurando oportunidades para abrir lojas e ofertas. Meu 
+método NÃO é achar a keyword final pronta — eu identifico um TEMA ou PRODUTO 
+com volume relevante, valido se é vendável online, e depois EU MESMO deduzo 
+quais palavras a galera digita pra encontrar aquilo (quem quer carne busca 
+"açougue"; quem quer parafuso busca "ferragem"; quem quer suplemento busca 
+"loja de suplemento"). Esse trabalho de cauda longa é meu, não seu.
+
+Sua missão é me entregar um MAPA AMPLO de oportunidades, em 3 camadas:
+
+**Camada 1 — Temas-mãe (categorias amplas):** carne, sushi, tênis, parafuso, ração
+
+**Camada 2 — Produtos específicos (item concreto vendável):** churrasqueira a 
+gás, tênis de corrida, parafuso autobrocante, ração para filhote, colchão de 
+mola, vestido de noiva, cadeira gamer
+
+**Camada 3 — Nichos segmentados (público específico):** suplemento para idoso, 
+roupa plus size, brinquedo educativo montessori, ração natural, sapato 
+ortopédico, livro infantil, equipamento crossfit, decoração geek
+
+Quero ver TODAS as três camadas no resultado. A camada 3 (público nichado) é 
+ouro porque costuma ter competition baixa e público engajado, mesmo com 
+volume menor.
+
+## O QUE FAZER
+
+### Etapa 1 — Sementes amplas
+
+Rode generateKeywordIdeas para cada semente abaixo (idioma pt = 1014, 
+localização Brasil = 2076). Use TAMBÉM as keywords retornadas como sementes 
+em uma segunda rodada de expansão (isso pesca temas adjacentes que não vieram 
+direto).
+
+**Alimentação:** carne, peixe, frango, pizza, sushi, hambúrguer, açaí, sorvete, 
+bolo, doce, pão, queijo, vinho, cerveja, café, chocolate, marmita, fruta, 
+verdura, salgado, congelado, churrasco, padaria, hortifruti, empório
+
+**Casa e construção:** sofá, cama, colchão, mesa, armário, cortina, tapete, 
+piso, tinta, parafuso, ferramenta, torneira, vaso sanitário, porta, janela, 
+telha, cimento, tijolo, iluminação, lustre, escrivaninha, estante, painel, 
+guarda-roupa, decoração
+
+**Moda e acessórios:** tênis, sapato, sandália, camiseta, vestido, calça, 
+bolsa, mochila, óculos, relógio, biquíni, sutiã, lingerie, pijama, casaco, 
+jaqueta, boné, cinto, carteira, terno, fantasia
+
+**Beleza e cuidado pessoal:** perfume, maquiagem, shampoo, esmalte, batom, 
+base, cílios, peruca, escova, secador, chapinha, depilador, barbeador, 
+cosmético, skincare
+
+**Pet:** ração, cachorro, gato, aquário, peixe ornamental, pássaro, coleira, 
+casinha, comedouro, brinquedo pet, areia higiênica
+
+**Automotivo:** pneu, bateria, óleo, filtro, farol, capacete, moto, retrovisor, 
+som automotivo, película, tapete carro, acessório carro
+
+**Eletrônicos:** celular, fone, notebook, geladeira, fogão, ventilador, ar 
+condicionado, micro-ondas, liquidificador, tv, smartwatch, caixa de som, 
+console, teclado, monitor, webcam, impressora
+
+**Saúde e bem-estar:** remédio, vitamina, whey, creatina, anticoncepcional, 
+fralda geriátrica, absorvente, suplemento, fitoterápico, massageador, 
+ortopédico, andador
+
+**Mãe e bebê:** brinquedo, fralda, mamadeira, carrinho de bebê, berço, cadeirinha, 
+bebê conforto, papinha, chupeta, roupinha bebê, enxoval
+
+**Esporte e fitness:** bicicleta, patins, skate, tênis de corrida, halteres, 
+suplemento, academia, crossfit, yoga, pilates, natação, surf, mergulho
+
+**Hobby e lazer:** vara de pesca, violão, livro, jogo, presente, instrumento 
+musical, modelismo, costura, pintura, artesanato, leitura, board game
+
+**Festas e ocasiões:** decoração festa, lembrancinha, bolo aniversário, casamento, 
+formatura, chá de bebê, batizado, vela, balão
+
+**Trabalho e papelaria:** caderno, caneta, mochila escolar, material escolar, 
+mesa de escritório, cadeira gamer, organizador, agenda, planner
+
+**Jardim e área externa:** vaso, planta, suculenta, churrasqueira, piscina, 
+deck, pergolado, jardim vertical, fogueira, espreguiçadeira
+
+**Saúde mental e nicho moderno:** meditação, aromaterapia, terapia, oráculo, 
+tarô, cristal, incenso
+
+### Etapa 2 — Filtros
+
+Aplique nesta ordem:
+
+**Filtro 1 — Volume mensal médio no Brasil:**
+- TIER A: ≥ 100.000 buscas/mês
+- TIER B: 30.000 a 99.999/mês  
+- TIER C (manter SÓ se for nicho segmentado claro): 10.000 a 29.999/mês
+- Abaixo de 10k: descartar.
+
+A justificativa do Tier C: produtos de público nichado (ex: "ração natural 
+para gato castrado") podem ter volume menor mas margem alta e competition 
+baixa. Vale incluir se for claramente nicho segmentado e vendável.
+
+**Filtro 2 — Vendabilidade online:**
+A palavra precisa representar algo que se vende pela internet no Brasil. 
+Descarte:
+- Serviços puramente presenciais sem componente de venda (ex: "consulta médica")
+- Conteúdo/informação ("como fazer", "receita de", "significado de")
+- Nomes próprios (pessoas, filmes, séries, músicas, jogadores, lugares)
+- Marcas registradas isoladas (Nike, iPhone) — mas MANTER categoria genérica 
+  (tênis, celular)
+- Termos políticos, religiosos sensíveis, conteúdo adulto
+
+MANTER:
+- Categorias amplas (Camada 1)
+- Produtos específicos vendáveis (Camada 2)
+- Nichos segmentados por público/uso/estilo (Camada 3)
+
+**Filtro 3 — Competition:**
+Registre o valor (LOW / MEDIUM / HIGH) mas NÃO descarte por isso. Mesmo termos 
+HIGH no genérico têm cauda longa barata depois.
+
+**Filtro 4 — Tamanho:**
+Aceite 1 a 5 palavras. Cauda longa de 6+ palavras descarte (eu monto sozinho 
+depois).
+
+### Etapa 3 — Output
+
+Tabela única com TODAS as keywords aprovadas, sem limite máximo (quanto mais 
+melhor, contanto que passe nos filtros):
+
+| Tier | Camada | Palavra | Volume mensal (BR) | Competition | CPC low (BRL) | CPC high (BRL) | Categoria geral | Observação |
+
+Onde:
+- **Camada**: 1 (tema-mãe) / 2 (produto específico) / 3 (nicho segmentado)
+- **Observação**: campo livre pra você sinalizar coisas tipo "sazonal", 
+  "sobe muito em dezembro", "tendência crescente", "público fitness", etc.
+
+Ordenação:
+1. Tier (A → B → C)
+2. Camada (1 → 2 → 3)
+3. Volume (decrescente)
+
+Meta mínima: 100 keywords aprovadas. Sem máximo. Se passar de 300, ótimo.
+
+### Etapa 4 — Análise final
+
+a) **Top 15 oportunidades gerais** — melhor combinação de volume + competition 
+   baixa/média.
+
+b) **Top 10 nichos segmentados (Camada 3)** mais promissores — público 
+   específico com volume saudável e competition manejável.
+
+c) **Top 10 produtos específicos (Camada 2)** com maior volume bruto — bons 
+   candidatos pra dropshipping/e-commerce de produto único.
+
+d) **Tendências e sazonalidade**: keywords cujo histórico mostre crescimento 
+   nos últimos 12 meses, ou picos sazonais claros (carnaval, dia das mães, 
+   black friday, natal, volta às aulas, etc). Liste separadamente com a 
+   sinalização do pico.
+
+e) **Palavras-surpresa**: temas com volume inesperadamente alto que fogem do 
+   radar. Chame atenção pra eles.
+
+f) **Sementes que falharam**: o que da lista inicial não retornou nada acima 
+   de 10k.
+
+## REGRAS IMPORTANTES
+
+- NÃO invente números. "N/D" se a API não retornar.
+- Use média dos ÚLTIMOS 12 MESES (não pega só o mês corrente).
+- Quanto MAIS keywords aprovadas, melhor. Sem limite máximo.
+- Avise antes de parar se bater limite de quota da API.
+- Não me explique o que é Google Ads. Execute.
+- Se a quota não permitir rodar todas as sementes, priorize na ordem em que 
+  aparecem na Etapa 1 e me avise o que ficou de fora.

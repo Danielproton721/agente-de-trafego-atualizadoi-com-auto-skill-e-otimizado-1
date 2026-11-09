@@ -2,15 +2,19 @@
 title: MASTER 01 - Auditoria Técnica e Tracking
 type: MASTER_SOP
 last_update: 2026-05-06
-tags: [master, auditoria, tracking, google-ads, meta-ads, cro, lp]
+tags: [master, auditoria, tracking, google-ads, meta-ads, cro, lp, plataforma/google, plataforma/meta]
 ---
 
 # MASTER 01 - Auditoria Técnica e Tracking
+
+> 🏷️ **Plataforma:** Google + Meta. Conferir a origem do número antes de aplicar.
 
 ## SOP 06 - Detecção de Anomalias
 **Descrição:** Verificação rápida de integridade para a conta. O que olhar num piscar de olhos e apontar como risco severo.
 
 # 🚨 06 - Detecção de Anomalias
+
+> 🏷️ **Plataforma:** Google + Meta. Conferir a origem do número antes de aplicar.
 
 **Gatilho de Uso:** Monitoramento diário automático ou logo após uma mudança grande na estrutura/Landing page.
 
@@ -33,6 +37,8 @@ Verificar a seção de conformidade antes. Se houver erro crasso em conversão, 
 
 # ⚡ 10 - Auditoria Rápida de Landing Page
 
+> 🏷️ **Plataforma:** Google + Meta. Conferir a origem do número antes de aplicar.
+
 **Gatilho de Uso:** Alta retenção no click e nenhum scroll na página.
 
 ## O que verificar:
@@ -45,6 +51,8 @@ Verificar a seção de conformidade antes. Se houver erro crasso em conversão, 
 **Descrição:** Avaliar o uso do espaço invisível do Google Ads.
 
 # 🧩 21 - Auditoria de Extensões de Anúncio (Google)
+
+> 🏷️ **Plataforma:** Google Ads.
 
 **Gatilho de Uso:** CTR do Google baixo em contas onde a concorrência é alta e paga mais barato que você.
 
@@ -60,6 +68,8 @@ Sem extensões, o Quality Score sofre.
 **Descrição:** Padrão de validação higiênica. Engloba Auditoria de LP, Google Ads e CRO para não mandar audiência prum buraco.
 
 # ✅ 37 - Checklists de Auditorias Técnicas (LP, CRO e Extensões)
+
+> 🏷️ **Plataforma:** Google + Meta. Conferir a origem do número antes de aplicar.
 
 **Gatilho de Uso:** Check-up trimestral, Queda Brutal de CVR. (Conglomerado das Skills antigas 10, 21, 37 e 39).
 
@@ -83,6 +93,8 @@ O Set-up do Google é punitivo se mal preenchido:
 
 # 🖱️ 39 - Auditoria de LP — Foco em CRO
 
+> 🏷️ **Plataforma:** Google + Meta. Conferir a origem do número antes de aplicar.
+
 **Gatilho de Uso:** LP tem cliques suficientes, tem velocidade boa, mas o usuário não põe o Cartão.
 
 ## Revisão Heurística com Hotjar/Clarity:
@@ -97,6 +109,8 @@ Sugira Teste A/B direto pra mudar a headline primária ou encurtar o Formulário
 **Descrição:** Inspeção tático-técnica do Business Manager da Meta. Procura por vazamento de rastreamento antes da injeção de capital.
 
 # 🕵️‍♂️ 41 - Auditoria Meta Ads (Fundação)
+
+> 🏷️ **Plataforma:** Meta Ads. Não aplicar em Google Ads.
 
 **Gatilho de Uso:** Análise do tracking para início de gestão ou investigação severa onde leads ou vendas declaradas não fecham com o painel do cliente/CRM (CPA falso).
 
@@ -130,6 +144,8 @@ Identifique e critique onde a conta alocou as metas (Advantage+ [ASC+] vs. Segme
 **Descrição:** Mapeamento das interações pregressas (Acesso Frio -> Retargeting -> Lead) que levam à quebra de caixa.
 
 # 🛣️ 16 - Análise do Caminho de Conversão
+
+> 🏷️ **Plataforma:** Google + Meta. Conferir a origem do número antes de aplicar.
 
 **Gatilho de Uso:** Quando o volume de conversão do Retargeting está estranho, ou quando deseja provar o valor das campanhas Top Of Funnel.
 

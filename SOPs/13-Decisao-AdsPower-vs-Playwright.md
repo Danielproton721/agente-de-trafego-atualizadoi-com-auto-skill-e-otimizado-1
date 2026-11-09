@@ -1,7 +1,7 @@
 ---
 title: Decisão — AdsPower MCP vs Playwright MCP
 type: SOP
-tags: [execucao, mcp, decisao, adspower, playwright]
+tags: [execucao, mcp, decisao, adspower, playwright, plataforma/google, plataforma/meta]
 priority: 1
 last_update: 2026-04-22
 description: "Critério obrigatório de qual MCP usar. Os dois sobrepõem em automação DOM — escolher errado dobra latência ou perde resiliência."
@@ -32,7 +32,8 @@ Se nenhum dos 7 critérios bate → **fica no AdsPower**.
 
 | Capacidade | AdsPower MCP | Playwright MCP |
 |---|---|---|
-| Abrir perfil com fingerprint isolado | ✅ nativo | ❌ precisa CDP via AdsPower |
+| Abrir perfil com fingerprint isolado | ⚠️ **só no plano PAGO** — no free, `open-browser` retorna "only available in paid subscriptions". Fluxo free: Daniel abre manual → `get-opened-browser` → `connect-browser-with-ws`. Ver [[adspower-free-sem-open-browser-api]] | ❌ precisa CDP via AdsPower |
+| `launch_args` (fixar porta 9222) | ⚠️ **só no plano PAGO** — por isso `chrome-devtools-mcp` **não alcança** perfil AdsPower free | ❌ |
 | Proxy/identidade | ✅ nativo | ❌ |
 | Click / Fill / Hover / Select / Drag | ✅ | ✅ |
 | Navigate / OpenNewPage | ✅ | ✅ |

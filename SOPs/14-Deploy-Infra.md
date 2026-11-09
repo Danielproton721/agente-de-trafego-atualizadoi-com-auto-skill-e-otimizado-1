@@ -1,7 +1,7 @@
 ---
 title: Deploy Infra
 type: SOP
-tags: [setup, hospedagem, vercel, github]
+tags: [setup, hospedagem, vercel, github, plataforma/google, plataforma/meta]
 description: "Padrão de deploy para projetos Next.js acoplados em repositório."
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: Modo Operacional (PMF vs Conversion-Driven)
 type: SOP
-tags: [framework, decisao, estagio, pmf, conversion]
+tags: [framework, decisao, estagio, pmf, conversion, plataforma/google, plataforma/meta]
 priority: 0
 description: "Primeira decisão de qualquer auditoria/planejamento. Define lente de análise pelo estágio do produto."
 ---
@@ -15,15 +15,17 @@ description: "Primeira decisão de qualquer auditoria/planejamento. Define lente
 ### Modo A — PMF Testing (Pré-validação)
 **Quando usar:** Produto novo, oferta não validada, não sabe se tem demanda real.
 
-| Item | Regra |
-|---|---|
-| Budget | R$ 250 – R$ 2.500 (pequeno, teste rápido) |
-| Landing Page | 1 seção: headline + benefício + dor + CTA ("Entre na lista", "Acesso antecipado") |
-| Métricas foco | **CTR, taxa de cadastro, bounce rate** |
-| Duração mínima | 4–6 semanas (algoritmo precisa aprender) |
-| Sinal de falha | CTR baixo + bounce alto = problema de **messaging/posicionamento**, não de tráfego |
-| Estratégia de lance | Manual CPC ou Max Clicks |
-| Objetivo | Validar interesse, não rentabilidade |
+> **Regra de entrada:** todo produto/oferta novo começa como `Validacao de Produto`. Para produtos não validados, consultar obrigatoriamente `17-Validacao-de-Produto.md` antes de aplicar regras de otimização ou escala.
+
+| Item                | Regra                                                                              |
+| ------------------- | ---------------------------------------------------------------------------------- |
+| Budget              | Pequeno teste inicial, limitado pelo saldo/liberação real da conta. Para produto novo, seguir `17-Validacao-de-Produto.md` |
+| Landing Page        | 1 seção: headline + benefício + dor + CTA ("Entre na lista", "Acesso antecipado")  |
+| Métricas foco       | **CTR, taxa de cadastro, bounce rate**                                             |
+| Duração mínima      | 4–6 semanas (algoritmo precisa aprender)                                           |
+| Sinal de falha      | CTR baixo + bounce alto = problema de **messaging/posicionamento**, não de tráfego |
+| Estratégia de lance | Manual CPC ou Max Clicks                                                           |
+| Objetivo            | Validar interesse, não rentabilidade                                               |
 
 ### Modo B — Conversion-Driven (Pós-validação)
 **Quando usar:** Oferta validada, tem vendas recorrentes, quer escalar com ROAS.

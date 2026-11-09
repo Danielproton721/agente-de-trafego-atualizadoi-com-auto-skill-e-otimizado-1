@@ -1,0 +1,40 @@
+# Sementes rodadas — SOP-19 em 2026-08-04
+# Conta: 537-269-2421 (nicekajazin67), perfil AdsPower k1dxf5x7, CDP 49908
+# Periodo servido pelo Planner: jul/2025 a jun/2026 (media 12m)
+
+## Batch 1 — Dia das Criancas / brinquedo  (8.427 ideias | 500 varridas | 89 aprovadas >=10k)
+brinquedo
+kit de pintura infantil
+boneca
+presente para crianca
+jogo de tabuleiro
+patinete
+
+## Batch 2 — Virada pro calor / verao  (13.768 ideias | 500 varridas | 105 aprovadas >=10k)
+ventilador
+piscina inflavel
+protetor solar
+repelente de mosquito
+caixa termica
+
+## Batch 3 — Casa / cozinha / pet / massagem  (500 varridas | 48 aprovadas >=12k)
+organizador de armario
+garrafa termica
+luminaria de mesa
+massageador
+cama para cachorro
+
+## Batch 4 — Beleza / postura / ar  (500 varridas | 10 aprovadas >=12k + 4 de postura <12k)
+corretor de postura
+escova alisadora
+umidificador de ar
+
+## NAO RODADAS — falha da UI do Planner ("Algo deu errado", 2 tentativas)
+churrasqueira eletrica
+tenis de caminhada
+
+## Validador de tendencia
+Google Trends BR, ultimos 90 dias (04/mai a 04/ago/2026), termos comparados:
+escova alisadora | garrafa termica | massageador de pescoco | caminha de cachorro
+Indice medio: 15 | 80 | 1 | 4
+Ultimos ~21d vs primeiros ~21d: 12,3 vs 13,0 | 86,0 vs 80,0 | 2,7 vs 3,6 | 5,4 vs 8,5

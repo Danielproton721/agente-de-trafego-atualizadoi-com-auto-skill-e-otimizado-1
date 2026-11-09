@@ -1,3 +1,7 @@
 {
-  "promptDelete": false
+  "enabledSnippets": [
+    "calendar-readability"
+  ],
+  "promptDelete": false,
+  "showUnsupportedFiles": true
 }

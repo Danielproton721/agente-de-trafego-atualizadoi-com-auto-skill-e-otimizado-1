@@ -1,11 +1,13 @@
 ---
 title: Benchmarks de Mercado
 type: Data
-tags: [referencia, baselines, mercado, limites]
+tags: [referencia, baselines, mercado, limites, plataforma/google, plataforma/meta]
 description: "Tabelas estáticas de referência base para o que é considerado Bom, Médio e Ruim no ambiente de tráfego, balizando as análises de anomalia."
 ---
 
 # 📊 Benchmarks de Mercado
+
+> 🏷️ **Plataforma:** conteúdo **misto**. A tabela de cima é **Meta Ads**; a de **Google Search** vem depois. Ler a seção da plataforma certa antes de aplicar qualquer número.
 
 **Gatilho de Uso:** Quando um agente precisar classificar a severidade de uma métrica durante a [[06-Deteccao-Anomalias]] ou relatórios semanais.
 

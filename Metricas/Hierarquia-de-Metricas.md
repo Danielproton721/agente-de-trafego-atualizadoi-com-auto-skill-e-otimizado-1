@@ -1,7 +1,7 @@
 ---
 title: Hierarquia de Métricas
 type: Data
-tags: [kpis, arvore de decisoes, prioridades]
+tags: [kpis, arvore de decisoes, prioridades, plataforma/google, plataforma/meta]
 description: "A essência de toda análise. A ordem inquebrável de importância das métricas. Proíbe conclusões rasas baseadas apenas em níveis baixos."
 ---
 

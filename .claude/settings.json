@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__adspower-local-api__check-status"
+    ]
+  }
+}

@@ -1,7 +1,7 @@
 ---
 title: Gestão de Perfis AdsPower (MCP)
 type: SOP
-tags: [adspower, mcp, infra, perfis, execucao]
+tags: [adspower, mcp, infra, perfis, execucao, plataforma/google, plataforma/meta]
 priority: 1
 last_update: 2026-04-22
 description: "Operação completa do MCP adspower-local-api. Gestão de perfis, fingerprint, proxy, E automação de navegador nativa."
@@ -186,4 +186,4 @@ Quando um erro novo aparecer → catalogar em `Conhecimento/Erros/` (template `T
 ## 📎 Ver também
 - [[13-Decisao-AdsPower-vs-Playwright]] — quando usar cada MCP
 - [[11-Criar-Campanha-Search-Google]] — consome este SOP
-- [[Memorias/Status-Atual]] — contas ativas agora
+- [[99-Governanca-e-Aprendizado]] — como novas regras são fundidas neste SOP

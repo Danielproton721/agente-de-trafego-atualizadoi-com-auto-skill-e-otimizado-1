@@ -2,15 +2,19 @@
 title: MASTER 06 - Públicos e Estrutura
 type: MASTER_SOP
 last_update: 2026-05-06
-tags: [master, publicos, estrutura, retargeting, sobreposicao, consolidacao]
+tags: [master, publicos, estrutura, retargeting, sobreposicao, consolidacao, plataforma/google, plataforma/meta]
 ---
 
 # MASTER 06 - Públicos e Estrutura
+
+> 🏷️ **Plataforma:** conteúdo **misto**. Sobreposição de públicos, LAL e janela de retargeting são **Meta**; canibalização de keyword, Quality Score e Display+Search são **Google**.
 
 ## SOP 08 - Sobreposicao Publicos
 **Descrição:** Mede o desgaste de competição interna causado por sobreposição entre conjuntos. Quando juntar e quando separar.
 
 # 📉 08 - Sobreposição de Públicos e Retargeting
+
+> 🏷️ **Plataforma:** Google + Meta. Conferir a origem do número antes de aplicar.
 
 **Gatilho de Uso:** CPMs subindo bizarramente sem sazonalidade externa (Black Friday, Eleições); Conta não traciona ao escalar orçamentos horizontais (Add new adsets); Períodos de restruturação massiva (ver seção Estrutura Conta abaixo).
 
@@ -35,6 +39,8 @@ Exemplo clássico do Retargeting falho: Criar um conjunto Quente 1 (Visitou site
 
 # 🏗️ 17 - Revisão de Estrutura de Conta
 
+> 🏷️ **Plataforma:** Google Ads.
+
 **Gatilho de Uso:** Quando herdar a gestão de uma conta nova de outro gestor, quando a performance atingir um platô sem explicação macroeconômica, ou logo antes de planejar um scale up extremo.
 
 ## Arquitetura Moderna (Consolidação > Fragmentação)
@@ -58,6 +64,8 @@ Se escanear a conta e bater de frente com essas configurações (seja no Ads Man
 **Descrição:** Definição do prazo máximo que uma pessoa pode ficar na lista de retargeting sem comprar.
 
 # ⏳ 22 - Janela de Retargeting
+
+> 🏷️ **Plataforma:** Google + Meta. Conferir a origem do número antes de aplicar.
 
 **Gatilho de Uso:** Frequência batendo teto insano e Custo subindo pra audiência já engajada.
 

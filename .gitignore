@@ -1,0 +1,24 @@
+# Playwright MCP — logs e snapshots de sessão, regeneram sempre
+.playwright-mcp/
+
+# Claude Code — worktrees temporárias de agents isolados
+.claude/worktrees/
+
+# VSCode local
+.vscode/
+
+# ─────────────────────────────────────────────────────────────
+# SEGREDOS — o repositório é PÚBLICO. Nada daqui pode ser versionado.
+# ─────────────────────────────────────────────────────────────
+# Fichas de conta: senha de Gmail, 2FA secret, proxy, billing, e-mail de recuperação
+Memorias/Contas/
+# MCP local com API_KEY do AdsPower (modelo sanitizado: .mcp.example.json)
+.mcp.json
+# Plugin Obsidian Local REST API: apiKey + par de chaves (privada) do certificado HTTPS
+.obsidian/plugins/obsidian-local-rest-api/
+
+# Plugins do Obsidian: artefatos instalaveis (o remotely-save traz OAuth client id/secret embutidos)
+.obsidian/plugins/
+
+# Arquivos compactados de projetos de loja: binario, sem valor de conhecimento, risco de segredo embutido
+outputs/*.zip

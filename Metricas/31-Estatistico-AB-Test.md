@@ -1,7 +1,7 @@
 ---
 title: 31 - Estatistico Avaliador AB Test
 type: Data
-tags: [test a/b, p-value, confianca estatistica]
+tags: [test a/b, p-value, confianca estatistica, plataforma/google, plataforma/meta]
 description: "Avaliar se o vencedor de um teste A/B é real ou apenas sorte do acaso."
 ---
 

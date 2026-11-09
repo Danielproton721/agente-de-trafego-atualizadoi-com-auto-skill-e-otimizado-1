@@ -1,16 +1,35 @@
 ---
 title: MASTER 02 - Gestão Financeira e Escala
 type: MASTER_SOP
-last_update: 2026-05-06
-tags: [master, financeiro, escala, budget, roas, pacing, lances]
+last_update: 2026-07-10
+tags: [master, financeiro, escala, budget, roas, pacing, lances, plataforma/google, plataforma/meta]
 ---
 
 # MASTER 02 - Gestão Financeira e Escala
+
+> 🏷️ **Plataforma:** Google + Meta. Conferir a origem do número antes de aplicar.
+
+## 🔴 REGRAS OFICIAIS DO DANIEL (sobrepõem o conteúdo genérico abaixo)
+
+> O material abaixo é referência de agência. Em conflito, **estas regras vencem**:
+
+1. **Juiz final = saldo sacável.** "Sobra pós-Google" = gateway − Google. Painel único: múltiplo gateway/tráfego. ROAS de painel não é veredito.
+2. **Combo de lance padrão (Search):** Vendas + meta Compra + Maximizar Conversões + **IA Max OFF**. Conta sem conversão de base → Manual CPC até ter histórico.
+3. **Escala = escada, não elevador:** dobrar no máximo, intervalo de 2-3 dias, só sobe se o múltiplo segurou no patamar atual. CPA sobe na escala — padrão NÃO é linear.
+4. **Saldo da plataforma = limite pós-pago progressivo** ([[17-Validacao-de-Produto]]). Teste cabe no limite liberado.
+5. **Timing:** campanha nova ativa SÓ de manhã (~6-8h) — gate 7 do [[11-Criar-Campanha-Search-Google]].
+6. **Negativas iniciais obrigatórias** em toda Search nova: "grátis", "como fazer", "curso", "vaga", "emprego", "reclame aqui" + revisar termos de pesquisa nos primeiros 3 dias. Ampla sem negativa = gastar em lixo.
+7. **Recomendação do Google = você gastar mais.** Nunca aceitar auto-aplicada sem revisar (as 30 amplas da CumpadiFood vieram daí).
+8. **Só escala produto validado** ([[17-Validacao-de-Produto]]: ≥15 vendas, CPA estável, ângulo documentado).
+
+---
 
 ## SOP 03 - Planejador de Cenários de Verba
 **Descrição:** Modelos e cálculos para escalonamento ou redução de orçamento. Lida com a curva de retornos decrescentes.
 
 # 💸 03 - Planejador de Cenários de Verba
+
+> 🏷️ **Plataforma:** Google + Meta. Conferir a origem do número antes de aplicar.
 
 **Gatilho de Uso:** Pedidos de "podemos gastar mais?", "quanto vai render se dobrar a grana?" ou planejamento trimestral.
 
@@ -38,6 +57,8 @@ Cálculos lineares não funcionam no tráfego. Dobrar o orçamento NÃO dobra o 
 
 # 🎛️ 15 - Otimizador de Mix de Canais
 
+> 🏷️ **Plataforma:** Google + Meta. Conferir a origem do número antes de aplicar.
+
 **Gatilho de Uso:** Quando o cliente pergunta "colocamos essa grana nova no Insta ou no Google?" ou no planejamento trimestral.
 
 ## Escala Progressiva (Regra 70-20-10)
@@ -55,6 +76,8 @@ Não olhe pro ROAS do canal isolado para definir o Mix de Canais total. O Google
 **Descrição:** Ferramenta para não prometer o que o algoritmo não consegue entregar nos meses seguintes.
 
 # 🔮 19 - Previsão de ROAS
+
+> 🏷️ **Plataforma:** Google + Meta. Conferir a origem do número antes de aplicar.
 
 **Gatilho de Uso:** Início do mês, preparações de Black Friday ou quando o diretor pergunta "quanto vamos fechar no final de Maio?".
 
@@ -76,6 +99,8 @@ Sempre que fizer uma projeção de ROAS ou Lucro, devolva 3 números (Cenários)
 
 # ⏱️ 27 - Monitor de Pacing Estruturado
 
+> 🏷️ **Plataforma:** Google + Meta. Conferir a origem do número antes de aplicar.
+
 **Gatilho de Uso:** Reuniões de meio de mês, ou no dia 15 para auditar trajeto da conta.
 
 ## A Matemática do Pacing
@@ -94,6 +119,8 @@ Se o Gasto Projetado for >20% que a Meta do Cliente, levante o Handbreak (avise 
 
 # 💸 32 - Alocador de Verba Otimizado
 
+> 🏷️ **Plataforma:** Google + Meta. Conferir a origem do número antes de aplicar.
+
 **Gatilho de Uso:** Quando receber a ordem de otimizar campanhas que tem sobra de budget com campanhas secando de forma discrepante.
 
 ## ROAS Marginal 
@@ -109,6 +136,8 @@ Tire a verba da A, não importando que ela pareça mais bonita no placar total, 
 **Descrição:** Tabela progressiva de quando o algoritmo está pronto para passar para a próxima fase de otimização de lance.
 
 # 🤖 11 - Estratégia de Lance (Bid Strategy)
+
+> 🏷️ **Plataforma:** Google + Meta. Conferir a origem do número antes de aplicar.
 
 **Gatilho de Uso:** Conta não traciona; CPM alto no Meta; Google não gasta orçamento diário.
 

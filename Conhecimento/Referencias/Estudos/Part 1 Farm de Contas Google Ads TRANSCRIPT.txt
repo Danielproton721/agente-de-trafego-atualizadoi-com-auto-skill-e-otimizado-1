@@ -1,0 +1,708 @@
+0:00
+Então, eh, hoje eu vou mostrar como a gente faz o processo de farm de contas
+0:04
+de Google, tá? Aqui na operação, vai ser uma voltado para as contas Google do
+0:10
+Brasil. Beleza? Vamos começar por essa plataforma que se chama Trelo, tá? Aqui
+0:15
+nada mais é que um gerenciador de tarefas, assim, pra gente ver como a
+0:20
+gente vai formar diversas contas, são mais de 20 contas. A gente precisa saber
+0:24
+em qual passo cada conta está, certo? Tá na fase de captura de dados. se o
+0:30
+navegador já tá aquecido, se já criou a conta do Google, se já verificou, enfim,
+0:35
+essas fases. Então agora eu vou te most vou começar a mostrar um processo,
+0:40
+começar pelo começo, né? Começar pela fase de farm e captura de dados de
+0:46
+empresas. Por quê? A gente vai precisar dos dados dessa empresa para pra gente
+0:51
+verificar e criar as contas do Google, tá? E qual e onde a gente captura esses
+0:57
+dados? A gente vem aqui no CPJ.bis. Tá, deixa eu abrir um outro aqui para
+1:02
+mostrar. Ele vai clicar aqui em teste grátis.
+1:05
+A gente vai botar para entrar com o Google. Meu já vai entrar logado porque
+1:08
+já já entrei obviamente, né? Mas a gente entra com um Google, pode ser qualquer
+1:12
+Google, vai pedir um número de telefone, você pode botar qualquer um, pode gerar
+1:16
+um e vai entrar. Dentro do CNPJ.bis. A gente vem aqui em pesquisa avançada,
+1:21
+tá bem? Aqui em senais, pensa o seguinte, a gente quer rodar diversos
+1:27
+tipos de produtos. O SENAI ele é o que aquela empresa, na qual área de atuação
+1:33
+daquela empresa. Então vamos botar sempre alguns que geralmente a gente usa
+1:38
+aqui na empresa. Ferramentas, a gente sempre vai pesquisar pelo
+1:43
+comércio e varejo de nesse caso aqui de ferramentas. Vamos ver se a gente acha,
+1:50
+ó. Comércio atacadista de ferragem e ferramentas. Comércio varista de
+1:56
+ferragem e ferramentas. Que que a gente quer. Então vamos pensar em um outro
+1:59
+agora. Eu quero da área de alimentos. Alimentos
+2:05
+que a gente também faz a venda de alguns produtos alimentícios nessas contas de
+2:09
+Google. Então vamos ver que começa atacadista de
+2:13
+leites laticínios. Pode ser. Outra coisa que a gente vende bastante, cosméticos.
+2:18
+Cosméticos. Então a gente vai tentar sempre achar
+2:22
+comércio atacadista ou comércio varjista.
+2:27
+Comércio atacadista aqui. Comércio varistas de cosméticos e produz
+2:31
+perfumaria de higên pessoal. Show, nos atende. Legal. Vamos pensar mais. Eh,
+2:37
+eletrônicos. A gente também vende produtos
+2:40
+eletrônicos aqui. Então é bom a gente ter CNPJ de produtos eletrônicos. Vamos
+2:44
+achar aqui se a gente acha comércio, ó. Comércio atacadista.
+2:51
+Comércio varista de material elétrico aqui, ó. Comércio varegista. Quero
+2:57
+comércio. É com varista de equipamentos, telefonia, comunicação. Não, comércio
+3:03
+varista especializado em suprimo. Esse aqui mesmo. Bom pensar mais um pouco
+3:09
+mais além. Suplementos. Mesma coisa. Comércio, varist
+3:15
+suplementos alimentíos especializados. Não. Beleza, vamos pegar só mais um pra
+3:20
+gente fechar. Eh, eu quero mais um de
+3:26
+pensar um outro nicho que a gente pode eh englobar. Já botamos ferramentas. T t
+3:33
+t t tã. Botamos tecn eletrônico, alimentício,
+3:37
+cosmético, eh, G, não.
+3:45
+Eletrodoméstico. Eletrodoméstico, ó, aqui, ó. Comércio varistas de móveis.
+3:54
+Móveis é legal. Beleza, selecionei a área de atuação das empresas que eu
+3:59
+quero achar aqui. A gente tá, então quando a gente for buscar, a gente só
+4:01
+vai achar empresas que atuam nessas áreas, beleza? Rolando um pouquinho para
+4:06
+baixo, a gente não quer MEI, tá? A gente não quer MEI, então a gente desmarca o
+4:11
+MEI. Aqui embaixo a gente não precisa mexer. Faixa de data a gente quer dos
+4:16
+últimos seis meses. Por quê? Como a gente tá criando as contas do Google
+4:20
+dessas empresas, se a gente pegar muito antiga esses CNPJ, possa ser que eles já
+4:26
+tenham criado alguma conta de Google. Não que isso seja um problema, mas se a
+4:31
+gente for os primeiros a criarem, melhor pra gente. Beleza? Aqui embaixo, o que
+4:37
+os presentes tenham, a gente vai colocar eh
+4:42
+telefone comercial ou celular, beleza? A gente não vai marcar nada que tenha
+4:47
+e-mail, porque isso aqui pode dar um problema pra gente mais paraa frente.
+4:52
+Tudo bem? Vamos clicar aqui em aplicar filtro.
+4:58
+Como a gente vai tá usando o teste grátis deles, a gente consegue baixar 10
+5:02
+CNPJ de graça. Vou mostrar aqui. Vai dar a pesquisa aqui. A gente vai clicar em
+5:06
+avançar. Aqui vai falar que achou 17.920, 1920,
+5:11
+né, que dá pra gente comprar, mas a gente vai usar esses 10 grátis aqui, que
+5:15
+a gente tem 10 créditos. Cliquei em download,
+5:26
+baixar download da lista. me deu aqui. Eu vou abrir essa lista no
+5:31
+Google Sheets, que eu estou sem Excelu computador.
+5:57
+Ah. H, tá. Só confirmar que sou eu.
+6:14
+Beleza, abri o Google Sheets. Vou vir aqui em arquivo, importar,
+6:19
+fazer o upload. Eu tô fazendo isso porque eu tô sem o
+6:22
+Excel no meu PC, tá? Se você tiver que seu PC, você pode abrir a planilha
+6:27
+direto. Planilha aberta. Beleza. Aqui estão os
+6:32
+CNPJ, tá todo mundo como ativo. Aqui tá razão social e aqui estão os e-mails
+6:40
+desses CNPJs. Beleza? Então aqui eu já fiz a captura
+6:47
+da empresa. Então aqui eu vou colocar os dados dessas empresas, tá?
+6:52
+Vou colocar o número que tá sendo feito. Esse aqui vai ser a primeira IP, então
+6:56
+vai ser o 01, tá? Vou dar espaço. Vou vir aqui e vou pegar o nome dessa
+7:04
+empresa. Botar aqui lá para ficar mais fácil. E vou colocar aqui.
+7:09
+Quando eu clicar aqui, ele vai abrir essa telinha aqui. A gente vai colocar
+7:13
+algumas informações dessa empresa, beleza? Tá? E onde eu acho as
+7:19
+informações dessa empresa? A gente vai copiar esse CNPJ aqui. A gente vai vir
+7:24
+no site, a gente vai pesquisar no Google Consulta CNPJ Receita Federal, já tá lá
+7:29
+em primeiro. E vai clicar no primeiro, ele vai abrir essa tela aqui. Essa tela
+7:36
+aqui. Aqui a gente vai consultar os DC CNPJ. Então se a gente colar aqui o
+7:40
+CNPJ, passar pelo capture consulta, ele me deu
+7:45
+os dados da empresa. E o que é que a gente vai precisar dos dados aqui? A
+7:48
+gente vai precisar do endereço. Então vou vir aqui do lado. Aqui eu vou
+7:53
+colocar o endereço dele. Quac número 1 2 6.
+8:00
+Número 26. Ó,
+8:05
+CP. Que mais tem informação?
+8:11
+Bairro cidade,
+8:19
+município, na verdade, município da cidade
+8:25
+da Cruz do Sul. Ã,
+8:30
+só rua, rua, número, CEP, bairro, município. Ah, e o F, né? De qual estado
+8:37
+ele é? F RS. Beleza, colocamos as informações
+8:42
+aqui, a gente vai clicar em salvar, tá? Mas a gente vai precisar de de mais
+8:47
+coisas, vai precisar desse documento aqui também. E como que a gente baixa
+8:51
+esse documento? A gente vai clicar aqui embaixo em imprimir e vai abrir essa
+8:56
+tela e vai clicar em imprimir de novo. E vai clicar em imprimir. Ele vai
+9:02
+imprimir, não, ele vai criar um PDF para mim. E eu vou pegar
+9:09
+esse o nome da empresa e vou salvar como o nome do PDF.
+9:17
+Geralmente eu crio uma pastazinha para aqui. Vou botar aqui no documento só
+9:20
+para facilitar. Salvei. Já posso fechar esse aqui.
+9:26
+Posso fechar esse aqui. E eu vou jogar o documento aqui dentro que eu acabei de
+9:30
+salvar. Vamos lá. Documentos. Ele tá aqui. Deixa eu puxar para cá.
+9:34
+Documentos. Arrastei o documento PDF aqui para dentro.
+9:39
+Ele carregou aqui. Beleza. Então a gente já cadastrou o documento que a gente vai
+9:45
+usar aqui dentro. Isso a gente vai fazer com todos dessa planilha aqui, certo?
+9:52
+Porque a gente vai usar essas empresas para que as contas do Google. Então vou
+9:57
+fazer a próxima. Adicionar o cartão 02. Fecho espaço
+10:06
+e vou criar com esse aqui. Então vou te chamar.
+10:13
+Abro. Vou pegar o CNPJ. Vou jogar aqui na consulta.
+10:22
+Posso clicar aqui em voltar. Consultar novamente.
+10:28
+Tá aqui, ó. Vou pegar o endereço. Vou abrir.
+10:33
+Endereço sem número SN. Pegar os outlemento,
+10:42
+ó. CN traço complemento. Pegar o CEP.
+10:51
+Vou pegar bairro.
+10:57
+Que mais? Município, cidade. Tem mais alguma informação que precisa?
+11:04
+O F. Beleza. Vou baixar novamente. Imprimir.
+11:12
+Vou expandir aqui. Imprimir de novo. Imprimir de novo. Vou pegar o nome
+11:20
+que a gente colocou aqui em cima. Vou salvar o documento com esse nome.
+11:29
+Posso fechar esse aqui. Posso fechar esse aqui e vou arrastar esse documento
+11:34
+aqui para dentro. Carregou. Cliquei em salvar. Sempre clica em salvar e clica
+11:40
+fora. Beleza? Então, fizemos isso com todas as contas. Tá todo mundo
+11:45
+cadastrado na fase de captura de dados. Beleza? Qual é a segunda fase? aquecer o
+11:51
+navegador, tá? Como é que a gente aquece o navegador? Primeiro eu vou explicar
+11:55
+que a gente usa essa plataforma chamada EDS Power, certo? Essa plataforma a
+11:59
+gente consegue criar vários perfis e cada perfil é um navegador, beleza?
+12:04
+Então eu vou criar um perfil, um navegador para cada empresa. Então vou
+12:07
+vir aqui, vou pegar esse nome todo, vou vir aqui em new profile.
+12:15
+No nome eu colo esse nome da empresa, clico em OK.
+12:23
+Clica em OK, ele vai ficar assim. Agora a gente vai aquecer o navegador. E como
+12:28
+que a gente aquece o navegador? E eu pedi aqui pro JPT me gerar 20 sites mais
+12:35
+acessados do Brasil, certo? Então a gente vai vir aqui dentro do Power, três
+12:41
+pontinhos, cook robb aqui dentro a gente vai colar os site. Ele vai ter dado
+12:47
+inválido que tem que pedir com https. Coloque o https/
+12:53
+no começo das URLs. Até que eu pedi, quero uma lista dos
+13:02
+sites mais acessados do Brasil, tirando site porno. E coloque por último na
+13:06
+lista site de bancos e do governo e na parte de cima da lista mais acessados
+13:11
+como redes sociais, site de notícia, eu quero uma lista com 20 sites. Ele me
+13:15
+gerou essa, só que ele pediu, me mandou 100 https no começo e pedi para mim
+13:20
+gerar novamente. Beleza, me gerou.
+13:28
+Seleciono todo mundo, clico aqui. Vamos lá. Ed Power. Acabei de criar três
+13:35
+pontinhos. Cook robot. Colei quem tá dando válido aqui. Esse aqui.
+13:43
+Beleza. Aqui a gente vai colocar 250. Aqui a vai colocar 300. Aqui a gente vai
+13:51
+colocar 250. E aqui a gente vai colocar 350.
+13:56
+Beleza? Dem. Ele vai abrir a tela do navegador pra
+14:01
+gente automaticamente. Eu não vou estar mexendo o mouse, o mouse tá parado na
+14:04
+tela. E ele vai scrollar esse navegador. Significa ele vai entrar naquela lista
+14:11
+de site que eu pedi e se tiver como descer a página, ele tá descendo. Tá
+14:15
+vendo que meu mouse tá aqui, ó? Ó, eu não tô mexendo em absolutamente nada,
+14:18
+ele tá mexendo sozinho. Isso é o Cook Robot. Ele vai entrando no site
+14:25
+para gerar cooks, né? para dizer: "Olha, esse navegador ele entrou em diversos
+14:30
+sites, entendeu? Ele é um navegador confiável.
+14:34
+Os sites de notícias, geralmente eles pedem para aceitar os cooks. Então, a
+14:38
+gente vai aceitar os cooks, entendeu? Ó, apareceu aqui, prosseguir."
+14:44
+Pode clicar só em prosseguir e deixar parado que ele vai continuar descendo o
+14:50
+navegador assim que ele terminar de carregar toda a página.
+14:59
+saber sua organização, pode botar permitir acesso ao site.
+15:04
+Ele vai descendo. Quando ele terminar de descer ou quando
+15:10
+bater o tempo que a gente pré-definiu lá, ele vai trocar pro próximo site.
+15:15
+Então é bom ficar de olho porque sempre que aparecer para clicar no cook, a
+15:18
+gente vai clicar nos cooks para aceitar. Vamos ver se vai aparecer o cooks pra
+15:24
+gente aceitar. Espera aí terminar de carregar.
+15:40
+Ele só rola para baixo quando a página toda carrega de ponta a ponta.
+15:46
+Carregou, apareceu o cooks. OK, vamos seguir.
+16:01
+E assim ele vai fazer com todos os sites que a gente colocou lá,
+16:08
+que a gente colocou lá na lista de sites que a gente pegou
+16:12
+do chat GPT, tá? El preciso abrir só um desse. Não, se aqui tiver mais perfis e
+16:19
+você quiser fazer mais ao mesmo tempo. Deixa só aparecer aqui eu para aceitar
+16:25
+os cook de novo que eu já troco a tela. Ó, por exemplo, aqui tem dois. Se aqui
+16:30
+tivesse dois perfis nessa fase aqui, ó, de aquecer navegador,
+16:37
+a gente poderia fazer, por exemplo, tô aqucendo o navegador desse aqui. Então,
+16:40
+a gente vai mover esse card para cá, entendeu? Sempre que a gente fizer uma
+16:45
+gente move o card. Então, esse card aqui tá na fase de aquecer o navegador. É o
+16:49
+que a gente tá fazendo aqui, tá aquecendo o navegador dele. Ah, então
+16:54
+vamos criar um navegador do outro. Copio
+16:59
+New profile. Colei, clique em OK.
+17:05
+Vou vir aqui na lista. Copie. Na verdade, eu não vou usar a
+17:09
+mesma lista. Eu quero que quero que você me mande uma outra lista com mais sites
+17:20
+notícias. Enquanto esse aqui tá rodando, ó. Clique
+17:25
+em OK. para sempre salvar os cooks e vamos
+17:30
+deixar ele carregando. Pode deixar minimizado, ele vai continuar rodando,
+17:34
+mas é bom deixar aberto pra gente sempre aceitar os cooks que aparecem aqui. É
+17:39
+muito importante isso. Vamos pedir uma outra lista aqui para ele. Enquanto
+17:43
+isso, vamos deixar aqui rodando. Chat PT já me deu uma outra lista.
+17:55
+Cliquem agora não. Tudo que já aparecer na tela aqui para
+17:59
+aceitar, fechar, recusar, a gente vai interagir.
+18:05
+Então acho terminar uma outra uma outra lista
+18:14
+para terminar aqui. Terminou.
+18:20
+Copiar. Então a gente vai vir aqui no no 02. Vamos clicar aqui nos três
+18:25
+pontinhos. Clique robot. OK. 250 350
+18:32
+250. Isso aqui significa quanto tempo que ele
+18:37
+vai ficar escrollando, certo? E o tamanho da página. Basicamente é
+18:42
+isso. A gente vai dar um OK. Quando esse navegador abrir, a gente já
+18:47
+vai mover ele no aquecimento de botar ele aqui pro lado, botar o outro desse
+18:52
+lado, ó. Beleza, pode fechar.
+18:57
+Ele vai começar a carregar o dele sozinho. Opa. Aceitar todos os cooks.
+19:03
+Aceitar todos os cooks. Aceitar.
+19:20
+Não começou a carregar o outro. Clique em OK. Então, a gente
+19:24
+consegue fazer vários navegadores ao mesmo tempo. Se você tiver mais
+19:28
+monitores, você pode fazer a mesma coisa com outro monitor também, deixar os dois
+19:33
+no monitor, você pode deixar dois, você pode deixar três, entendeu? Aqui acabou,
+19:38
+tá vendo que ele não tá abrindo mais nada? Então, que significa que o
+19:42
+navegador que a gente acabou de, o primeiro que a gente abriu, ele já
+19:47
+terminou. A gente tem que clicar aqui no botão de fechar. Deixar esse aqui de
+19:50
+cantinho pra gente ver. Ó, ele fechou. E esse aqui ainda tá aberto. Então vamos
+19:55
+mover aqui. A gente acabou de criar o cremosinho, ele tá rodando. Mov ele para
+20:00
+cá. Esse aqui que fechou, ele já foi
+20:05
+aquecido. A gente só vai verificar se realmente ele foi aquecido. Então a
+20:09
+gente vai abrir ele. A gente vai ver a quantidade de cooks
+20:15
+que tem esse site. Vou deixar minimizado. Vou abrir ele nos
+20:21
+três pontinhos. configurações. Expandir um pouco aqui.
+20:26
+Eh, cooks
+20:31
+de site. Cadê o cash?
+20:40
+Ó, deu praticamente 100 MB de cash. É um bom, é uma boa quidade. Então, a gente
+20:46
+pode fechar. Pode fechar. Fechamos. Então o agro comercial campo vitória tá
+20:52
+aquecido. Então ele está com o navegador aquecido.
+20:57
+Esse aqui como ele ainda tá rodando, ó, prosseguir, clica no botão de fechar.
+21:03
+Ele ainda tá na fase de aquecimento. Quando ele terminar de rodar todos os
+21:07
+sites, ele vai vir para cá também, certo? Tá? Agora vamos criar, vamos
+21:14
+fazer a parte da criação da conta de Google, certo?
+21:18
+Que que a gente vai fazer? Vou deixar esse aqui rodando normal aqui em fechar.
+21:22
+Deixar aqui rodando. Minimizado. A gente vai criar conta. Na verdade, primeiro a
+21:26
+gente vai logar esse Gmail. Nessa farm de contas minha, a gente vai
+21:33
+usar um Gmail comprado. Beleza? Então eu vou colocar aqui no comentário o acesso
+21:40
+desse Gmail. Já até peguei ele aqui. Tá vendo? Eu sempre vou colocar esse acesso
+21:47
+dentro de cada conta como comentário. Aqui vai ter o login e a senha e o
+21:53
+e-mail de recuperação. Assim como aqui embaixo também vai ter o
+21:57
+cartão quando for na hora de criar a conta do Google. Beleza? Clique em OK.
+22:02
+Fechou. Depois que o navegador tiver aquecido,
+22:07
+nesse caso, o primeiro foi esse aquecido, a gente vai colocar uma proxy
+22:11
+nele, certo? O que é que significa prox? Prox é onde o IP desse navegador vai
+22:16
+abrir. Nesse caso, ele tá abrindo o meu IP, certo?
+22:20
+E eu vou colocar dentro aqui também as proxão colocadas em cada perfil. Nesse
+22:27
+caso, a gente vai começar com essa prox aqui. Eu vou colocar sempre aqui no
+22:32
+comentário a proxada. Vou clicar em salvar, tá? El Mas onde coloco essa
+22:37
+prox? A gente vai vir aqui no Power com ele fechado. Vamos clicar em editar.
+22:44
+Pode abrir um áudio aqui do nada. Deixa eu
+22:49
+fechar o som aqui. Editar. Vamos rolar aqui para baixo para
+22:53
+prox type. Vamos clicar aqui a stock 5, na verdade. E aqui a gente vai colocar
+22:59
+as informações que serão até os dois primeiros dois pontos antes do do
+23:05
+10.000. Esse é o IP. que é o roxo que se chama aqui roxo.
+23:12
+O 10.001 ele é a porta. A gente vem aqui, copia
+23:19
+porta. Depois do arroba até os dois pontos é o
+23:25
+login, o z name e o finalzinho é a senha.
+23:31
+Coloquei aqui. Sempre que a gente fizer isso, a gente vai dar check prox.
+23:35
+Se por acaso a gente deu check prox e a prox falhou,
+23:41
+a gente vai usar uma outra prox, mas sempre coloca no card,
+23:47
+ah, e coloca como comentário aqui embaixo, assim, prox falhou, entendeu?
+23:53
+Para poder saber que a proxy falhou e poder trocar essa proxy para outra.
+23:58
+Fechou? Beleza, coloquei a proxy tan tã. Eu vou vir aqui embaixo em plataforma,
+24:05
+vou tirar de n, vou colocar conta do Google, tiro esse tabs daqui. Vou vir
+24:12
+aqui e vou colocar já o acesso que eu que vai ter aqui, que é o login,
+24:17
+username, a senha, que é esse aqui, e vou clicar
+24:23
+em OK. Por que isso? Porque cada navegador ele
+24:27
+vai ter uma proxy própria para rodar o Google. Tudo vai ser bem separadinho.
+24:32
+Então você clicar aqui em open, ele já vai abrir aqui o Google. Beleza?
+24:46
+Beleza. Voltando para cá, como tá nessa fase de, ó, de aquecimento de navegador,
+24:55
+a gente vai mover. Na verdade, eu vou criar mais uma coluna.
+25:00
+Verdade. Eh,
+25:07
+G5 você faz 2.3
+25:13
+class gmail logado, tá? E essa coluna ela vai
+25:18
+vir para cá. Por quê? A gente vai logar o Gmail. Esse Gmail vai ficar parado
+25:24
+aqui um tempo, certo? Então, aqueci o navegador, botei a prox. No aquecimento
+25:31
+de navegador, a gente vai ter a proxy já logada. Beleza? Vamos lá. Cadê? Tá aqui
+25:38
+do Gmail. Vamos fazer o login.
+25:42
+A gente vai vir abrir aqui. Vamos copiar esse do e-mail.
+25:48
+Deixar isso aqui cá. Botar esse aqui para cá. Fica mais fácil. Colo. Avanço.
+25:54
+A senha. Eu acho que ele já vai puxar, ó. Já puxou. Só coloca aqui. Avançar
+26:08
+agora não. O certo é ele entrar direto e não pedir
+26:14
+SMS. Se pedir SMS, a gente tá fazendo alguma falha na hora do aquecimento.
+26:21
+Recover de option. Beleza, a gente não precisa colocar o telefone, a gente pode
+26:25
+deixar o mesmo operação aqui mesmo. Clica em salvar,
+26:29
+pode pular. Vamos esperar ele carregar.
+26:44
+Beleza, Gmail está logado. O que é que a gente vai fazer? A gente vai colocar um
+26:48
+autenticador nesse Gmail, certo? Como é que a gente faz isso? A gente vai vir
+26:53
+aqui em segurança, a gente vai rolar aqui para baixo, vai
+26:58
+clicar em verificação de duas etapas. A gente vai clicar em autenticador,
+27:11
+configurar autenticador e vai pedir pra gente ler esse QR code,
+27:17
+só que a gente não vai ler esse QRC. Vai clicar aqui, não consegue ler. Ele vai
+27:21
+dar esse código aqui pra gente. Primeiro a gente vai criar, vai vir no
+27:27
+site chamado 2FA.li. que ele vai gerar o nosso primeiro
+27:36
+autenticador pra gente passar essa fase. Vamos colar o código que ele nos deu
+27:41
+aqui. Vamos clicar em submit. Ele vai dar o
+27:45
+código aqui. A gente copia, clica em avançar, cola o código e verifica.
+27:54
+Verificou. Está com o Google escrito ativo. Agora a gente vai pegar esse
+27:58
+código aqui, certo? que é desse perfil aqui. Vamos vir aqui no Ed Power, no
+28:06
+perfil que a gente acabou de fazer o código, três pontinhos, editar.
+28:12
+E aqui embaixo, onde tem FAK, a gente vai colar esse código e apertar OK.
+28:20
+Por que a gente tá fazendo isso? Porque quando a gente for usar o navegador e
+28:24
+pedir o código de autenticador, aquele código lá que a gente botou, ele vai
+28:27
+aparecer aqui, ó. Entendeu? Então a gente só copia aqui e coloca aqui onde
+28:32
+precisar. Então aqui eu já posso abrir, botar gmail.com.
+28:38
+Quando a gente loga, ele não pede SMS nem nada, ele entra praticamente direto
+28:43
+como deu agora. Significa que a gente fez um bom aquecimento de
+28:48
+do navegador. Se ele pediu SMS, significa que o seu aquecimento de
+28:52
+navegador que tá sendo feito está insuficiente,
+28:55
+entendeu? vai precisar de mais site para ser feito no próximo. Então, quanto mais
+29:00
+site você conseguir, melhor. Deixa eu cliquei aqui, dou mais. Então, esse aqui
+29:07
+tá com Gmail logo. E aqui do lado a gente vai colocar uma data
+29:14
+para mostrar que Gmail foi logado no dia 30/10.
+29:18
+Por quê? Esse Gmail vai ficar paradinho aqui no 30/10. Vai parar de ficar
+29:23
+paradinho de três a 5 dias, entendeu? Para poder a gente passar pra próxima
+29:29
+fase. Então, a gente precisa ter uma grande quantidade já aqui no e-mail
+29:32
+logado para depois a gente avançar na fase de verificação, de criação e
+29:36
+verificação da conta do Google. Beleza? Esse aqui tá criado já logado.
+29:44
+Podemos fechar, tá tudo certinho. Vamos agora para fazer a mesma coisa com outro
+29:50
+navegador que a gente criou. Vamos ver.
+29:57
+Ele ainda tá carregando aqui, tá? Eu vou fazer um vou fechar
+30:02
+precocemente esse aquecimento, tá? Fechei. Show. Então, digamos que tá com
+30:07
+o navegador aquecido. Vou abrir aqui, vou colocar as informações desse perfil,
+30:13
+que no caso vai ser esse aqui, que é o segundo. Informações dele é esse.
+30:18
+Cliquei aqui em salvar. E a proxy dele vai ser a segunda, que vai ser essa
+30:23
+daqui. Vou colocar aqui e vou salvar também. Como é que a gente joga mesmo?
+30:30
+Vamos botar primeiro a prox, obviamente. Por que a gente não coloca a prox antes
+30:34
+do aquecimento de navegador? Porque essa prox ela é por giga, né? Então esses
+30:41
+aquecimentos eles carregam página, carrega vídeo, carrega muita coisa.
+30:44
+Então vai acabar como se fosse o saldo, vamos dizer assim, dessa proxy, igual se
+30:49
+fosse um chip pré-pago de internet. Então a gente coloca a proxy depois que
+30:52
+a gente faz o aquecimento. Botar prox vem aqui em editar.
+30:58
+Tá carregar prox type stockque 5. Vamos vir aqui do lado. Primeiro é o host
+31:08
+host. Segundo é a porta. Nesse caso é 10.2.
+31:15
+porta. Vamos colocar o username, que é depois
+31:20
+do arroba até primeiro dois pontos e a senha que é os dois pontos para lá.
+31:28
+Check props. Beleza. Vou vir aqui embaixo em
+31:33
+plataforma, vou colocar do Google, vou pegar o login,
+31:41
+tiro esse tex. username, pegar a senha, vou colocar
+31:47
+aqui e vou dar um OK. Então agora a gente vai logar com o
+31:55
+Google, certo? Não tá comador aquecido. Beleza, tá certinho aqui. Então vamos
+32:02
+entrar. carregou o navegador,
+32:13
+vai carregar o conta do Google. Vamos ver se ele vai puxar informações.
+32:22
+Ainda não. Então vamos vir aqui nele, copiar o e-mail, colar aqui, clicar em
+32:29
+avançar. Assim já vai puxar. Avança também.
+32:37
+Agora não. Ele vai dar isso aqui e vai clicar em
+32:53
+salvar, pular.
+33:04
+Veja que não pediu nenhuma confirmação de telefone
+33:08
+nem de nada. Então se fica que a gente fez um bom aquecimento, entendeu?
+33:12
+Próximo passo, colocar o autenticador de dois fatores. Segurança,
+33:18
+verificações de duas etapas. Autenticador.
+33:26
+Configurar autenticador. Não consegue ler o QR Code. Vamos abrir
+33:33
+do lado 2FA.li. Vamos copiar esse código aqui.
+33:46
+Vamos colar ele no primeiro. Clicar submite.
+33:51
+Copiar esse código, avançar, colar e verifica.
+33:59
+Verificou. Pega esse código, vem no Power, clica no que a gente tá
+34:05
+aberto agora. Edite.
+34:09
+Rola aqui para baixo. 2 Fak e a gente cola e salva.
+34:17
+Beleza? Então logamos o Gmail. Vi gmail.com.
+34:25
+Ele vai estar logado. A prox pouco lenta, mas provavelmente
+34:35
+vai estar logado. Sim. Ó, abriu o Gmail. Então a gente vai mover esse card para
+34:42
+Gmail logado, certo? Então, basicamente, a vai fazer isso com essa lista aqui
+34:50
+como todo. E sim, mais para frente sempre vai ter novas listas que eu vou
+34:53
+compartilhar com você pra gente criar esse processo aqui. Então, e sempre
+34:59
+colocar aqui do lado quando chega no farm de cont que o Gmail foi logado pela
+35:04
+última vez, que ele vai ficar aqui de três a 5 dias para depois avançar para a
+35:08
+fase de criar o Google. Então, essa fase aqui já foi, tá bem explicadinha.

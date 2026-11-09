@@ -2,15 +2,19 @@
 title: MASTER 07 - Report e Organização
 type: MASTER_SOP
 last_update: 2026-05-06
-tags: [master, report, organizacao, nomenclatura, narrativas, resumo-semanal]
+tags: [master, report, organizacao, nomenclatura, narrativas, resumo-semanal, plataforma/google, plataforma/meta]
 ---
 
 # MASTER 07 - Report e Organização
+
+> 🏷️ **Plataforma:** Google + Meta. Conferir a origem do número antes de aplicar.
 
 ## SOP 05 - Narrativas Relatorio
 **Descrição:** Matriz final textual que agrupa os dados frios num contexto de negócios. Explicando o 'porquê' ao cliente.
 
 # 📝 05 - Formatação de Narrativas (Reports)
+
+> 🏷️ **Plataforma:** Google + Meta. Conferir a origem do número antes de aplicar.
 
 **Gatilho de Uso:** Finais da semana ou final de Sprint Mensal, quando os dados já foram levantados e a IA ou o Gestor precisa "entregar a mensagem" de forma executiva.
 
@@ -32,6 +36,8 @@ Nunca cole uma tabela e vá embora. Dados precisam de Narrativa (Forward-looking
 **Descrição:** Taxonomia padronizada obrigatória para toda e qualquer campanha. Vital para o datastudio e planilhas não quebrarem.
 
 # 🏷️ 23 - Nomenclatura de Campanhas
+
+> 🏷️ **Plataforma:** Google + Meta. Conferir a origem do número antes de aplicar.
 
 **Gatilho de Uso:** Início de trabalho, criação de setups e revisões estruturais para envio de UTM.
 
@@ -73,6 +79,8 @@ A ordem deve ser sempre a estabelecida abaixo (separados por Underline):
 **Descrição:** Padrão de envio rápido para manter o cliente/diretor na mesma página.
 
 # 📅 30 - Estrutura de Resumo Semanal (Weekly)
+
+> 🏷️ **Plataforma:** Google + Meta. Conferir a origem do número antes de aplicar.
 
 **Gatilho de Uso:** Toda segunda-feira (ou sexta à tarde).
 
